@@ -22,14 +22,9 @@ export function KnobCell({ point, onAdjust }: KnobCellProps) {
       <div className="flex justify-center">
         <Knob
           value={point.final_value}
-          min={0}
-          max={100}
-          size={120}
-          thickness={0.15}
-          angleArc={250}
-          angleOffset={-125}
-          fgColor="#3B82F6"
-          bgColor="#334155"
+          min={-40}
+          max={40}
+          size={80}
         />
       </div>
 

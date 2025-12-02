@@ -17,22 +17,22 @@ const COLUMN_OPTIONS = [4, 5, 6]
 
 // Mock data - reemplazar con API real
 const MOCK_DATA: DataPoint[] = [
-  { internal_id: "1", group: "COMPRESOR", name: "Presión", final_value: 45, offset: 0 },
-  { internal_id: "2", group: "COMPRESOR", name: "Temperatura", final_value: 65, offset: 0 },
-  { internal_id: "3", group: "COMPRESOR", name: "Velocidad", final_value: 85, offset: 0 },
-  { internal_id: "4", group: "COMPRESOR", name: "Vibración", final_value: 12, offset: 0 },
+  { internal_id: "1", group: "COMPRESOR", name: "Presión", final_value: 0, offset: 0 },
+  { internal_id: "2", group: "COMPRESOR", name: "Temperatura", final_value: 0, offset: 0 },
+  { internal_id: "3", group: "COMPRESOR", name: "Velocidad", final_value: 0, offset: 0 },
+  { internal_id: "4", group: "COMPRESOR", name: "Vibración", final_value: 0, offset: 0 },
 
-  { internal_id: "5", group: "EVAPORADORES", name: "Temp Entrada", final_value: 35, offset: 0 },
-  { internal_id: "6", group: "EVAPORADORES", name: "Temp Salida", final_value: 42, offset: 0 },
-  { internal_id: "7", group: "EVAPORADORES", name: "Flujo", final_value: 78, offset: 0 },
-  { internal_id: "8", group: "EVAPORADORES", name: "Humedad", final_value: 55, offset: 0 },
+  { internal_id: "5", group: "EVAPORADORES", name: "Temp Entrada", final_value: 0, offset: 0 },
+  { internal_id: "6", group: "EVAPORADORES", name: "Temp Salida", final_value: 0, offset: 0 },
+  { internal_id: "7", group: "EVAPORADORES", name: "Flujo", final_value: 0, offset: 0 },
+  { internal_id: "8", group: "EVAPORADORES", name: "Humedad", final_value: 0, offset: 0 },
 
-  { internal_id: "9", group: "BOMBA", name: "RPM", final_value: 1800, offset: 0 },
-  { internal_id: "10", group: "BOMBA", name: "Potencia", final_value: 42, offset: 0 },
-  { internal_id: "11", group: "BOMBA", name: "Flujo", final_value: 95, offset: 0 },
+  { internal_id: "9", group: "BOMBA", name: "RPM", final_value: 0, offset: 0 },
+  { internal_id: "10", group: "BOMBA", name: "Potencia", final_value: 0, offset: 0 },
+  { internal_id: "11", group: "BOMBA", name: "Flujo", final_value: 0, offset: 0 },
 
-  { internal_id: "12", group: "VÁLVULAS", name: "Posición 1", final_value: 60, offset: 0 },
-  { internal_id: "13", group: "VÁLVULAS", name: "Posición 2", final_value: 75, offset: 0 },
+  { internal_id: "12", group: "VÁLVULAS", name: "Posición 1", final_value: 0, offset: 0 },
+  { internal_id: "13", group: "VÁLVULAS", name: "Posición 2", final_value: 0, offset: 0 },
 ]
 
 export function Dashboard() {
@@ -42,18 +42,30 @@ export function Dashboard() {
   const [modalOpen, setModalOpen] = useState(false)
   const [selectedPoint, setSelectedPoint] = useState<DataPoint | null>(null)
 
-  // Simular actualización de valores cada 200ms
   useEffect(() => {
     const interval = setInterval(() => {
       setData((prev) =>
-        prev.map((point) => ({
-          ...point,
-          final_value: Math.min(100, point.final_value + (Math.random() - 0.5) * 2),
-        })),
+        prev.map((point) => {
+          // Variación aleatoria pequeña
+          const delta = (Math.random() - 0.5) * 10; // cambia máximo ±0.25 por tick
+
+          // Nuevo valor dentro del rango -10 a 10
+          let newValue = point.final_value + delta;
+
+          // Limitar a -10 y 10
+          newValue = Math.max(-10, Math.min(10, newValue));
+
+          return {
+            ...point,
+            final_value: parseFloat(newValue.toFixed(2)), // 2 decimales
+          };
+        }),
       )
-    }, 200)
-    return () => clearInterval(interval)
-  }, [])
+    }, 200);
+
+    return () => clearInterval(interval);
+  }, []);
+
 
   const filteredData = data.filter((point) => point.group === activeGroup)
 
