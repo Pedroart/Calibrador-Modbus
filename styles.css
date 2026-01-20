@@ -1,0 +1,135 @@
+/* ===== CONTENEDOR GENERAL ===== */
+.panel-wrapper {
+  background: #000;
+  padding: 16px;
+  border-radius: 10px;
+  max-width: 1400px;
+  background: #000;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 20px auto;
+
+  overflow: hidden; 
+}
+
+/* ===== TITULO ===== */
+.panel-title {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+}
+
+/* ===== PANEL ===== */
+.panel {
+  width: 260px;
+  background: #292929;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ===== TITULO PANEL ===== */
+.panel .title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+/* ===== GAUGE 1 ===== */
+.gauge1-container {
+  position: relative;
+  width: 120px;
+  height: 80px;
+}
+
+.gauge1-container canvas {
+  width: 120px;
+  height: 80px;
+}
+
+.gauge1-value {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* ===== GAUGE 2 + BOTONES ===== */
+.bottom-row {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 12px;
+  align-items: center;
+}
+
+.gauge2-wrapper {
+  display: flex;
+  align-items: center;      /* centra vertical */
+  gap: 12px;                /* espacio botones-gauge */
+}
+
+
+.gauge2-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 88px;
+  position: relative;
+}
+
+.gauge2-value {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.gauge2-container canvas {
+  width: 88px;
+  height: 56px;
+}
+
+/* ===== BOTONES ===== */
+.panel button {
+  padding: 5px 9px;
+  font-size: 0.75em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-calibrar {
+  background: #2555f0;
+}
+
+.btn-cero {
+  background: #4caf50;
+}
+
+.gauge1-container canvas,
+.gauge2-container canvas {
+  display: block;      /* evita inline 0px */
+}
+
+#statusBar {
+  font-size: 0.85rem;
+}
+.status-ok { color: #4caf50; }
+.status-error { color: #f44336; }
+.status-warn { color: #ff9800; }
+
+
+.offset-text {
+  color: #ffffff;        /* texto blanco */
+  font-size: 1.6rem;     /* un poco más grande */
+  text-align: center;
+  line-height: 1;
+}

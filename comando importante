@@ -1,0 +1,1 @@
+scp -r . root@25.44.101.69:/home/root/calibrador
