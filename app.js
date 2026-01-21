@@ -309,6 +309,7 @@ function renderListaSensores(sensores) {
               step="0.1"
               class="form-control offset-input"
               placeholder="Ej: -0.5"
+              
             />
             <button class="btn btn-outline-secondary btn-set px-3 py-2" type="button">
               Fijar
@@ -375,6 +376,7 @@ function setSensorData(nombreSensor, { value, offset }) {
 // ===============================
 // Eventos: clicks en cards (delegación)
 // ===============================
+
 document.getElementById("cards-sensores")?.addEventListener("click", async (e) => {
   const card = e.target.closest(".sensor-card");
   if (!card) return;
