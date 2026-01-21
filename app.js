@@ -5,6 +5,9 @@ const urlbase = "http://100.94.14.38:1880";
 // ===============================
 let ambienteActual = null;
 let Ambientes = {}; // diccionario: { "Tunel 1": ["SENSOR 1", ...], ... }
+let EstructuraModbus = {};
+let valuesMemoria = [];
+let offsetMemoria = [];
 
 // ===============================
 // API: GET /structure -> Ambientes
@@ -25,11 +28,21 @@ async function getAmbientes() {
 
   // Devolver: { ambiente: ["SENSOR 1","SENSOR 2", ...] }
   const sensoresPorAmbiente = {};
+  
   ambientes.forEach((a) => {
-    sensoresPorAmbiente[a.nombre] = a.sensores.map((s) => s.Sensor);
+    Ambientes[a.nombre] = a.sensores.map((s) => s.Sensor);
+    EstructuraModbus[a.nombre] = a.sensores.map(s => ({
+      Sensor: s.Sensor,
+      UnitId: s.UnitId
+    }));
   });
 
-  return sensoresPorAmbiente;
+  //Ambientes = sensoresPorAmbiente
+
+
+
+
+  //return sensoresPorAmbiente;
 }
 
 // ===============================
@@ -165,14 +178,15 @@ function updateOffsets(offsetsArray) {
 // POST: escritura offset
 // body: { UnitId, IDmodbus, value }
 // ===============================
-async function apiPostOffset({ UnitId, IDmodbus, value }) {
+async function apiPostOffset({ UnitId, IDModbus, value }) {
   const url = `${urlbase}/offset`;
   return await fetchJSON(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ UnitId, IDmodbus, value }),
+    body: JSON.stringify({ UnitId, IDModbus, value }),
   });
 }
+
 
 // ===============================
 // (Opcional) Helpers prácticos
@@ -187,27 +201,39 @@ async function apiGetValueAndOffset(ambiente, sensor) {
   return { value, offset };
 }
 
-/** Escribe offset en °C (convierte °C -> entero x10) */
-async function apiSetOffsetC(UnitId, IDmodbus, offsetC) {
-  const raw = Math.round(Number(offsetC) * 10); // -0.5°C => -5
-  return await apiPostOffset({ UnitId, IDmodbus, value: raw });
+
+async function apiSetOffsetC(UnitId, IDModbus, offsetC) {
+  const num = Number(offsetC);
+
+  if (!Number.isFinite(num)) {
+    throw new Error("offsetC no es un número válido");
+  }
+
+  const truncated = Math.trunc(num * 10) / 10;
+  console.log(truncated);
+  return await apiPostOffset({ UnitId, IDModbus, value: truncated });
 }
+
 
 // ===============================
 // Cambio de ambiente
 // ===============================
-function cambiarAmbiente(nuevoAmbiente) {
+async function cambiarAmbiente(nuevoAmbiente) {
   if (!nuevoAmbiente || !Ambientes[nuevoAmbiente]) return;
+  
   
   if (refreshInFlight) return;
 
   const stop = stopAutoRefresh();
   if(stop !== undefined & !stop) return;
-
+  showPreloader();
   ambienteActual = nuevoAmbiente;
   console.log("Ambiente actual:", ambienteActual);
 
   renderListaSensores(Ambientes[ambienteActual]);
+  startAutoRefresh();
+  await refreshNow();
+  hidePreloader();
   return true;
 }
 
@@ -349,25 +375,62 @@ function setSensorData(nombreSensor, { value, offset }) {
 // ===============================
 // Eventos: clicks en cards (delegación)
 // ===============================
-document.getElementById("cards-sensores")?.addEventListener("click", (e) => {
+document.getElementById("cards-sensores")?.addEventListener("click", async (e) => {
   const card = e.target.closest(".sensor-card");
   if (!card) return;
 
   const sensor = card.dataset.sensor;
 
-  if (e.target.closest(".btn-set")) {
-    const val = card.querySelector(".offset-input")?.value;
-    console.log("Fijar", { ambiente: ambienteActual, sensor, offset: val });
-  }
+  try {
+    if (e.target.closest(".btn-set")) {
+      const val = Number(card.querySelector(".offset-input")?.value);
+      if (Number.isNaN(val)) throw new Error("Offset inválido");
 
-  if (e.target.closest(".btn-calibrar")) {
-    console.log("Calibrar", { ambiente: ambienteActual, sensor });
-  }
+      await cambiarCalibracion(ambienteActual, sensor, val);
+    }
 
-  if (e.target.closest(".btn-reset")) {
-    console.log("Reset", { ambiente: ambienteActual, sensor });
+    if (e.target.closest(".btn-calibrar")) {
+      const newOffset = calcullarCalibracion(ambienteActual, sensor);
+      console.log(sensor,newOffset)
+      await cambiarCalibracion(ambienteActual, sensor, newOffset);
+    }
+
+    if (e.target.closest(".btn-reset")) {
+      await cambiarCalibracion(ambienteActual, sensor, 0);
+    }
+  } catch (err) {
+    console.error(err);
+    // acá podés mostrar toast/modal
   }
 });
+
+
+function calcullarCalibracion(ambiente, sensor) {
+  const v = valuesMemoria?.find(e => e.Sensor === sensor)?.value;
+  const o = offsetMemoria?.find(e => e.Sensor === sensor)?.value;
+
+  if (v == null || o == null) throw new Error("No hay value/offset en memoria aún");
+
+  return o - v;
+}
+
+
+async function cambiarCalibracion(ambiente, sensor, newOffset) {
+  return withPausedAutoRefresh(async () => {
+    const entry = EstructuraModbus[ambiente]?.find(s => s.Sensor === sensor);
+    if (!entry) throw new Error(`No existe ${sensor} en ${ambiente}`);
+
+    const result = await apiSetOffsetC(entry.UnitId, 781, newOffset);
+
+    await refreshNow("after-offset-change");
+    
+    console.log("Offset cambiado:", result);
+    return result;
+  });
+}
+
+
+
 
 // ===============================
 // Eventos: clicks en recargar
@@ -381,6 +444,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!btn) return;
 
   btn.addEventListener("click", async () => {
+    showPreloader();
     btn.disabled = true;
     const icon = btn.querySelector("i");
     console.log("icon:", icon);
@@ -398,9 +462,17 @@ document.addEventListener("DOMContentLoaded", () => {
       icon?.classList.remove("spin");
       btn.disabled = false;
     }
-    
+    hidePreloader();
   });
 });
+
+function showPreloader() {
+  document.getElementById("preloader")?.classList.add("active");
+}
+
+function hidePreloader() {
+  document.getElementById("preloader")?.classList.remove("active");
+}
 
 
 
@@ -410,10 +482,14 @@ document.addEventListener("DOMContentLoaded", () => {
 // ===============================
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    Ambientes = await getAmbientes();        // ✅ guardar en el global
-    renderListaAmbientes(Ambientes);         // ✅ crea sidebar y setea activo
-    cambiarAmbiente(ambienteActual);         // ✅ renderiza cards del ambiente activo
+    
+    await getAmbientes();
+    renderListaAmbientes(Ambientes);        
+    cambiarAmbiente(ambienteActual);
   } catch (error) {
     console.error("Error inicial:", error);
   }
+  
 });
+
+

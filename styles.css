@@ -40,3 +40,43 @@ body {
   to { transform: rotate(360deg); }
 }
 
+
+/* =========================
+   PRELOADER FULLSCREEN
+========================= */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 9999;
+
+  /* oculto por defecto */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+/* visible */
+.preloader.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.preloader-content {
+  text-align: center;
+}
+
+.preloader-progress {
+  width: min(420px, 80vw);
+  height: 10px;
+  background: rgba(255,255,255,0.15);
+}
