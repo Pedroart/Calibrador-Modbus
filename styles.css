@@ -1,135 +1,42 @@
-/* ===== CONTENEDOR GENERAL ===== */
-.panel-wrapper {
-  background: #000;
-  padding: 16px;
-  border-radius: 10px;
-  max-width: 1400px;
-  background: #000;
-  border-radius: 10px;
-  padding: 16px;
-  margin: 20px auto;
-
-  overflow: hidden; 
+body {
+  background-color: #1b1d23;
 }
 
-/* ===== TITULO ===== */
-.panel-title {
-  color: #fff;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 12px;
-  font-size: 1.3rem;
+.page-sidebar {
+  background: linear-gradient(180deg, #272a32 10%, #1e77e5);
+
 }
 
-/* ===== PANEL ===== */
-.panel {
-  width: 260px;
-  background: #292929;
-  border-radius: 6px;
-  padding: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
+.list-item-dark {
+  background-color: transparent;
+  color: #f1f1f1;              /* blanco suave, no puro */
+  padding: 1rem;
+  border-color: transparent;      /* borde sutil */
 }
 
-/* ===== TITULO PANEL ===== */
-.panel .title {
-  font-size: 1em;
-  font-weight: bold;
-  color: #fff;
-  text-align: center;
-}
-
-/* ===== GAUGE 1 ===== */
-.gauge1-container {
-  position: relative;
-  width: 120px;
-  height: 80px;
-}
-
-.gauge1-container canvas {
-  width: 120px;
-  height: 80px;
-}
-
-.gauge1-value {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #fff;
-}
-
-/* ===== GAUGE 2 + BOTONES ===== */
-.bottom-row {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 12px;
-  align-items: center;
-}
-
-.gauge2-wrapper {
-  display: flex;
-  align-items: center;      /* centra vertical */
-  gap: 12px;                /* espacio botones-gauge */
-}
-
-
-.gauge2-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 88px;
-  position: relative;
-}
-
-.gauge2-value {
-  font-size: 0.9em;
-  font-weight: bold;
-  color: #fff;
-}
-
-.gauge2-container canvas {
-  width: 88px;
-  height: 56px;
-}
-
-/* ===== BOTONES ===== */
-.panel button {
-  padding: 5px 9px;
-  font-size: 0.75em;
-  border: none;
-  border-radius: 4px;
+.list-item-dark:hover {
+  background-color: #1f2428;
+  color: #ffffff;
   cursor: pointer;
 }
 
-.btn-calibrar {
-  background: #2555f0;
+/* Item activo (opcional) */
+.list-item-dark.active {
+  background-color: #192987;  /* verde bootstrap */
+  color: #ffffff;
+  border-color: #192987;
 }
 
-.btn-cero {
-  background: #4caf50;
+.row-gutter-5 {
+  --bs-gutter-y: 10px;
 }
 
-.gauge1-container canvas,
-.gauge2-container canvas {
-  display: block;      /* evita inline 0px */
+#btn-refresh i.spin {
+  display: inline-block;           /* clave para que rote */
+  animation: spin 0.8s linear infinite;
 }
 
-#statusBar {
-  font-size: 0.85rem;
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
-.status-ok { color: #4caf50; }
-.status-error { color: #f44336; }
-.status-warn { color: #ff9800; }
 
-
-.offset-text {
-  color: #ffffff;        /* texto blanco */
-  font-size: 1.6rem;     /* un poco más grande */
-  text-align: center;
-  line-height: 1;
-}
