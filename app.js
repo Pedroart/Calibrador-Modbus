@@ -1,4 +1,4 @@
-const urlbase = "http://100.94.14.38:1880";
+const urlbase = "/api";
 
 // ===============================
 // Estado global
