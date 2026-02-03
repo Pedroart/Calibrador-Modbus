@@ -1,6 +1,6 @@
 # Sistema de Calibración para MODBUS SERIAL
 
-![Vista Sistema](https://raw.githubusercontent.com/Pedroart/Calibrador-Modbus/main/Imagen%20Sistema.png)
+![Vista Sistema](Imagen%20Sistema.png)
 
 # Instalar nginx
 
