@@ -1,3 +1,3 @@
-# Sistema de Calibracion para MODBUS SERIAL
+# Sistema de Calibración para MODBUS SERIAL
 
-![Vista Sistema](Imagen Sistema.png)
+![Vista Sistema](https://raw.githubusercontent.com/Pedroart/Calibrador-Modbus/main/Imagen%20Sistema.png)
