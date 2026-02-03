@@ -8,7 +8,7 @@ sudo apt install nginx
 
 # Cargar Archivos Server
 
-1) Verifica dónde está tu proyecto
+## 1) Verifica dónde está tu proyecto
 ls -la /home/root
 
 
@@ -16,7 +16,7 @@ Debes ver:
 
 Calibrador-Modbus
 
-2) Crear el enlace simbólico para que sea la HOME (/)
+## 2) Crear el enlace simbólico para que sea la HOME (/)
 
 Esto hace que Nginx sirva tu repo directamente en /.
 
@@ -33,7 +33,7 @@ Debe salir:
 
 html -> /home/root/Calibrador-Modbus
 
-3) Dar permisos para que Nginx pueda leer
+## 3) Dar permisos para que Nginx pueda leer
 
 Como tu proyecto está dentro de /home/root, hay que permitir “entrar” a esa carpeta y leer archivos.
 
@@ -54,7 +54,7 @@ drwx---r-x root root   root
 
 Eso significa que “others” tiene x, así que ✅.
 
-4) Configurar Nginx (sitio)
+## 4) Configurar Nginx (sitio)
 
 Crea/edita este archivo:
 
@@ -82,10 +82,10 @@ server {
   }
 }
 
-5) Habilitar el sitio y deshabilitar el default
+## 5) Habilitar el sitio y deshabilitar el default
 sudo ln -sf /etc/nginx/sites-available/calibrador /etc/nginx/sites-enabled/calibrador
 sudo rm -f /etc/nginx/sites-enabled/default
 
-6) Probar y recargar Nginx
+## 6) Probar y recargar Nginx
 sudo nginx -t
 sudo systemctl reload nginx
