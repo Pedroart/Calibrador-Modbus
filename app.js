@@ -1,4 +1,4 @@
-const urlbase = "/api";
+const urlbase = "http://100.104.120.2/api";
 
 // ===============================
 // Estado global
@@ -8,6 +8,12 @@ let Ambientes = {}; // diccionario: { "Tunel 1": ["SENSOR 1", ...], ... }
 let EstructuraModbus = {};
 let valuesMemoria = [];
 let offsetMemoria = [];
+let calibracionesVista = [];
+
+const SENSOR_MIN_VALUE = -30;
+const SENSOR_MAX_VALUE = 50;
+const CALIBRATION_MIN_OFFSET = -2;
+const CALIBRATION_MAX_OFFSET = 2;
 
 // ===============================
 // API: GET /structure -> Ambientes
@@ -174,12 +180,15 @@ function updateValues(valuesArray) {
     console.log(Sensor,value);
     setValueSensor(Sensor, value);
   });
+  updateCalibracionesDespues();
+  renderCalibrationTable();
 }
 
 function updateOffsets(offsetsArray) {
   offsetsArray.forEach(({ Sensor, value }) => {
     setOffsetSensor(Sensor, value);
   });
+  renderCalibrationTable();
 }
 
 
@@ -243,9 +252,11 @@ async function cambiarAmbiente(nuevoAmbiente) {
   if(stop !== undefined & !stop) return;
   showPreloader();
   ambienteActual = nuevoAmbiente;
+  calibracionesVista = [];
   console.log("Ambiente actual:", ambienteActual);
 
   renderListaSensores(Ambientes[ambienteActual]);
+  renderCalibrationTable();
   startAutoRefresh();
   await refreshNow();
   hidePreloader();
@@ -314,6 +325,10 @@ function renderListaSensores(sensores) {
             <span class="temp-value">--</span>°C
           </div>
 
+          <div class="sensor-status mb-2">
+            <span class="badge text-bg-secondary">Sin lectura</span>
+          </div>
+
           <div class="text-muted mb-3">
             Offset: <span class="offset-value">--</span>°C
           </div>
@@ -358,6 +373,33 @@ function getSensorCard(nombreSensor) {
   );
 }
 
+function parseNumericValue(value) {
+  const num = Number(value);
+  return Number.isFinite(num) ? num : null;
+}
+
+function isSensorOutOfRange(value) {
+  const num = parseNumericValue(value);
+  return num !== null && (num < SENSOR_MIN_VALUE || num > SENSOR_MAX_VALUE);
+}
+
+function isDamagedCalibration(offset) {
+  const num = parseNumericValue(offset);
+  return num !== null && (num < CALIBRATION_MIN_OFFSET || num > CALIBRATION_MAX_OFFSET);
+}
+
+function getValueFromMemoria(sensor) {
+  return valuesMemoria?.find(e => e.Sensor === sensor)?.value ?? null;
+}
+
+function getOffsetFromMemoria(sensor) {
+  return offsetMemoria?.find(e => e.Sensor === sensor)?.value ?? null;
+}
+
+function formatCell(value) {
+  return value ?? "--";
+}
+
 function setValueSensor(nombreSensor, value) {
   const card = getSensorCard(nombreSensor);
   if (!card) return;
@@ -366,6 +408,24 @@ function setValueSensor(nombreSensor, value) {
   if (!el) return;
 
   el.textContent = value ?? "--";
+
+  const outOfRange = isSensorOutOfRange(value);
+  const damaged = isDamagedCalibration(getUltimaCalibracion(nombreSensor)?.appliedOffset);
+  const status = card.querySelector(".sensor-status");
+
+  card.classList.toggle("out-of-range", outOfRange);
+
+  if (status) {
+    if (damaged) {
+      status.innerHTML = `<span class="badge text-bg-warning">Sensor dañado</span>`;
+    } else if (parseNumericValue(value) === null) {
+      status.innerHTML = `<span class="badge text-bg-secondary">Sin lectura</span>`;
+    } else if (outOfRange) {
+      status.innerHTML = `<span class="badge text-bg-danger">Fuera de rango</span>`;
+    } else {
+      status.innerHTML = `<span class="badge text-bg-success">OK</span>`;
+    }
+  }
 }
 
 function setOffsetSensor(nombreSensor, offset) {
@@ -385,6 +445,167 @@ function setSensorData(nombreSensor, { value, offset }) {
   if (offset !== undefined) {
     setOffsetSensor(nombreSensor, offset);
   }
+}
+
+function getEstructuraSensor(ambiente, sensor) {
+  return EstructuraModbus[ambiente]?.find(s => s.Sensor === sensor) ?? null;
+}
+
+function getUltimaCalibracion(sensor) {
+  return calibracionesVista.find((item) => item.Sensor === sensor) ?? null;
+}
+
+function getCalibrationRows() {
+  const sensores = Ambientes?.[ambienteActual] || [];
+
+  return sensores.map((sensor) => {
+    const value = getValueFromMemoria(sensor);
+    const offset = getOffsetFromMemoria(sensor);
+    const ultima = getUltimaCalibracion(sensor);
+
+    return {
+      Sensor: sensor,
+      value,
+      offset,
+      hasReading: parseNumericValue(value) !== null,
+      outOfRange: isSensorOutOfRange(value),
+      damaged: isDamagedCalibration(ultima?.appliedOffset),
+      beforeValue: ultima?.beforeValue ?? null,
+      afterValue: ultima?.afterValue ?? null,
+      beforeOffset: ultima?.beforeOffset ?? null,
+      appliedOffset: ultima?.appliedOffset ?? null,
+    };
+  });
+}
+
+function renderCalibrationTable() {
+  const tbody = document.getElementById("calibration-table-body");
+  if (!tbody) return;
+
+  tbody.innerHTML = "";
+
+  getCalibrationRows().forEach((row) => {
+    const tr = document.createElement("tr");
+    if (row.outOfRange) tr.classList.add("out-of-range");
+    if (row.damaged) tr.classList.add("damaged");
+
+    const statusClass = row.damaged ? "damaged" : !row.hasReading ? "empty" : row.outOfRange ? "out" : "ok";
+    const statusText = row.damaged ? "Sensor dañado" : !row.hasReading ? "Sin lectura" : row.outOfRange ? "Fuera rango" : "OK";
+
+    tr.innerHTML = `
+      <td>${row.Sensor}</td>
+      <td>${formatCell(row.value)}</td>
+      <td><span class="status-pill ${statusClass}">${statusText}</span></td>
+      <td>${formatCell(row.beforeOffset)}</td>
+      <td>${formatCell(row.appliedOffset)}</td>
+      <td>${formatCell(row.beforeValue)}</td>
+      <td>${formatCell(row.afterValue)}</td>
+    `;
+
+    tbody.appendChild(tr);
+  });
+}
+
+function registrarCalibracion(sensor, newOffset) {
+  calibracionesVista = calibracionesVista.filter((item) => item.Sensor !== sensor);
+  calibracionesVista.push({
+    Sensor: sensor,
+    beforeValue: getValueFromMemoria(sensor),
+    beforeOffset: getOffsetFromMemoria(sensor),
+    afterValue: null,
+    appliedOffset: newOffset,
+    changedAt: new Date().toISOString(),
+  });
+  setValueSensor(sensor, getValueFromMemoria(sensor));
+}
+
+function updateCalibracionesDespues() {
+  calibracionesVista = calibracionesVista.map((item) => ({
+    ...item,
+    afterValue: getValueFromMemoria(item.Sensor) ?? item.afterValue,
+  }));
+}
+
+function setActiveView(view) {
+  const cards = document.getElementById("cards-sensores");
+  const table = document.getElementById("calibration-table-wrap");
+  const btnCards = document.getElementById("btn-view-cards");
+  const btnTable = document.getElementById("btn-view-table");
+
+  const showTable = view === "table";
+
+  cards?.classList.toggle("d-none", showTable);
+  table?.classList.toggle("d-none", !showTable);
+
+  btnCards?.classList.toggle("btn-primary", !showTable);
+  btnCards?.classList.toggle("btn-outline-light", showTable);
+  btnCards?.classList.toggle("active", !showTable);
+
+  btnTable?.classList.toggle("btn-primary", showTable);
+  btnTable?.classList.toggle("btn-outline-light", !showTable);
+  btnTable?.classList.toggle("active", showTable);
+
+  if (showTable) renderCalibrationTable();
+}
+
+function exportCalibrationRows() {
+  const headers = [
+    "Ambiente",
+    "Sensor",
+    "Valor actual",
+    "Estado",
+    "Offset pasado",
+    "Offset aplicado",
+    "Antes",
+    "Despues",
+  ];
+
+  const rows = getCalibrationRows().map((row) => [
+    ambienteActual,
+    row.Sensor,
+    row.value,
+    row.damaged ? "Sensor dañado" : !row.hasReading ? "Sin lectura" : row.outOfRange ? "Fuera de rango" : "OK",
+    row.beforeOffset,
+    row.appliedOffset,
+    row.beforeValue,
+    row.afterValue,
+  ]);
+
+  const escapeHtml = (value) => String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+
+  const tableRows = [headers, ...rows]
+    .map((cols, idx) => {
+      const cell = idx === 0 ? "th" : "td";
+      return `<tr>${cols.map((col) => `<${cell}>${escapeHtml(col)}</${cell}>`).join("")}</tr>`;
+    })
+    .join("");
+
+  const excel = `
+    <html>
+      <head>
+        <meta charset="UTF-8" />
+      </head>
+      <body>
+        <table border="1">${tableRows}</table>
+      </body>
+    </html>
+  `;
+
+  const blob = new Blob([excel], { type: "application/vnd.ms-excel;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  const ambiente = (ambienteActual || "ambiente").replace(/\s+/g, "_");
+
+  link.href = url;
+  link.download = `calibraciones_${ambiente}.xls`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
 }
 
 
@@ -448,6 +669,9 @@ async function cambiarCalibracion(ambiente, sensor, newOffset) {
       throw new Error(`Faltan datos de calibrador para ${sensor} en ${ambiente}`);
     }
 
+    registrarCalibracion(sensor, newOffset);
+    renderCalibrationTable();
+
     const result = await apiSetOffsetC(calibrador, newOffset);
 
     await refreshNow("after-offset-change");
@@ -491,6 +715,20 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.disabled = false;
     }
     hidePreloader();
+  });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("btn-view-cards")?.addEventListener("click", () => {
+    setActiveView("cards");
+  });
+
+  document.getElementById("btn-view-table")?.addEventListener("click", () => {
+    setActiveView("table");
+  });
+
+  document.getElementById("btn-export-calibrations")?.addEventListener("click", () => {
+    exportCalibrationRows();
   });
 });
 

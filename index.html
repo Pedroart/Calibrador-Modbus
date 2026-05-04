@@ -78,10 +78,42 @@
 
     <!-- CONTENIDO -->
     <main class="container-lg" style="padding-top: 120px">
+      <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+        <div class="btn-group" role="group" aria-label="Vista">
+          <button class="btn btn-primary active" type="button" id="btn-view-cards">
+            <i class="bi bi-grid-3x3-gap"></i>
+          </button>
+          <button class="btn btn-outline-light" type="button" id="btn-view-table">
+            <i class="bi bi-table"></i>
+          </button>
+        </div>
+
+        <button class="btn btn-outline-light" type="button" id="btn-export-calibrations">
+          <i class="bi bi-download"></i>
+        </button>
+      </div>
+
       <div
         class="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-5 row-gutter-5"
         id="cards-sensores"
       ></div>
+
+      <div class="table-responsive calibration-table-wrap d-none" id="calibration-table-wrap">
+        <table class="table table-dark table-hover align-middle calibration-table">
+          <thead>
+            <tr>
+              <th>Sensor</th>
+              <th>Valor actual</th>
+              <th>Estado</th>
+              <th>Offset pasado</th>
+              <th>Offset aplicado</th>
+              <th>Antes</th>
+              <th>Despues</th>
+            </tr>
+          </thead>
+          <tbody id="calibration-table-body"></tbody>
+        </table>
+      </div>
     </main>
 
       <!-- PRELOADER FULLSCREEN -->

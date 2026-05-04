@@ -19,7 +19,7 @@ async function refreshNow(reason = "manual") {
 
   try {
     
-    const debeTraerOffsets = cantidad % 20 === 0;
+    const debeTraerOffsets = reason === "after-offset-change" || cantidad % 20 === 0;
 
     const [values, offset] = await Promise.all([
       apiGetValues(ambienteActual),
@@ -27,7 +27,9 @@ async function refreshNow(reason = "manual") {
     ]);
 
     valuesMemoria = values;
-    offsetMemoria = offset;
+    if (offset !== null) {
+      offsetMemoria = offset;
+    }
 
     cantidad++;
 

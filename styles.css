@@ -31,6 +31,60 @@ body {
   --bs-gutter-y: 10px;
 }
 
+.sensor-status {
+  min-height: 24px;
+}
+
+.sensor-status .badge {
+  border-radius: 4px;
+}
+
+.calibration-table-wrap {
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px;
+}
+
+.calibration-table {
+  margin-bottom: 0;
+}
+
+.calibration-table tr.out-of-range td {
+  background-color: rgba(240, 93, 115, 0.18);
+}
+
+.calibration-table tr.damaged td {
+  background-color: rgba(255, 193, 7, 0.18);
+}
+
+.status-pill {
+  display: inline-block;
+  min-width: 92px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.status-pill.ok {
+  background-color: #198754;
+  border: 1px solid #198754;
+}
+
+.status-pill.out {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.status-pill.empty {
+  background-color: #3a3f4b;
+  border: 1px solid #697181;
+}
+
+.status-pill.damaged {
+  background-color: #ffc107;
+  border: 1px solid #ffc107;
+  color: #1b1d23;
+}
+
 #btn-refresh i.spin {
   display: inline-block;           /* clave para que rote */
   animation: spin 0.8s linear infinite;
