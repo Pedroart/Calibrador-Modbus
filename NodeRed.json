@@ -1,6 +1,6 @@
 [
     {
-        "id": "6e87ae00ebb3fb14",
+        "id": "d3e9c8731ce1cc4d",
         "type": "tab",
         "label": "TERMOMETRIA",
         "disabled": false,
@@ -8,17 +8,9 @@
         "env": []
     },
     {
-        "id": "9ea7e0a7ccf0207c",
-        "type": "tab",
-        "label": "API",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "143356aa89eb5ba9",
+        "id": "4965fccb30875c92",
         "type": "group",
-        "z": "6e87ae00ebb3fb14",
+        "z": "d3e9c8731ce1cc4d",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -29,313 +21,64 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "7cc6c60b87f206f0",
-            "69a471e8a038c9be",
-            "a5a145bc079c1adc",
-            "356d6ca582a22ab5",
-            "a704be1b1a1ff49d",
-            "2c336d8e968f8a81",
-            "82a1d1ef21eac098",
-            "810979522cc6013b",
-            "a4e6efe594f9a6b0",
-            "3a4fd6d570b96dde",
-            "623e901ef84ee0ac",
-            "ed090639031737fa",
-            "69927a5534cf67ef",
-            "31b6c8d4f004adc1",
-            "aaea08f6f1d3eafe",
-            "883880135fa661b1",
-            "2b2bcf0fcd9749be",
-            "7e57c306a8a02520",
-            "149493d5632b5ff1",
-            "7f95220a2d127c71",
-            "2772aa7465bab013",
-            "4cdad7dafa3c3218"
+            "4a8b05df1a23da4e",
+            "24fa7262106a48cd",
+            "e7e6246d59c7d180",
+            "62f2611aea9a905a",
+            "d3089574c8fb8b03",
+            "4814a45b83d3c4ac",
+            "be8ac1b4c8b1fc34",
+            "1c9830c0bcdae251",
+            "ec94247cea427629",
+            "c2fabbcb6166421e",
+            "9d4bb989220e9692",
+            "8e5654e02ea90114",
+            "3bc91ca97d537ea2",
+            "792e20bec8b546e2",
+            "e69e7c1db36d954d",
+            "26eb7221f0bb0a3f",
+            "60a85cedbd5bdfbf",
+            "16a4872eca1ce01d",
+            "4271e668a0e5d943",
+            "02080b4e36dc5d06",
+            "a0a602a83844add0",
+            "59af107d3eb938c4",
+            "a06af6e51a338d66",
+            "30b94b5058ce1a4f",
+            "82eb56a31e39c05f",
+            "69fabfe02f929733"
         ],
-        "x": 64,
-        "y": 479,
-        "w": 1422,
-        "h": 362
+        "x": 54,
+        "y": 39,
+        "w": 1412,
+        "h": 402
     },
     {
-        "id": "4cbf6081562987c6",
-        "type": "group",
-        "z": "9ea7e0a7ccf0207c",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f56bfa6903c7ce5e",
-            "2a1e2ad8b37efc85",
-            "d8eb33215df27f86",
-            "aa4f504376ec36d4",
-            "e7e16f6750fda418",
-            "07297e7785e8d68b",
-            "1327af96bf5f30ed",
-            "91492199b5d659af",
-            "97564762380fee36",
-            "cfcbc64c237218e0",
-            "fdcdb8104e36bb26",
-            "f6993ed8c2f3cdd4",
-            "ebde049f44f6b595",
-            "bfafbfd44fa9b20d",
-            "b42969f75fdd5a98",
-            "ac6ba7e1658b9f4b",
-            "e34e277dfddd07a4",
-            "ce10f2719720b85e",
-            "2cef278583b7981d",
-            "838a7a4e6b0e6bef",
-            "2f96b414d97ce72f",
-            "b6307637650dc4ab",
-            "57c20208a645c385",
-            "ef90a2620f0d1e8f",
-            "6fb4e8c9e0a83a33"
-        ],
-        "x": 74,
-        "y": 259,
-        "w": 1272,
-        "h": 362
-    },
-    {
-        "id": "efec56f499f1941b",
-        "type": "group",
-        "z": "9ea7e0a7ccf0207c",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "1a5cd17da6da572c",
-            "7b9519d02553fa73",
-            "cfd157054bd1bc6b",
-            "8ade454f53802ee4",
-            "ff7190ec4bc8ce71"
-        ],
-        "x": 74,
-        "y": 119,
-        "w": 1112,
-        "h": 122
-    },
-    {
-        "id": "c83fca59a72831f4",
-        "type": "group",
-        "z": "9ea7e0a7ccf0207c",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "61ed3555e6889989",
-            "92861aa0532a524c",
-            "eda0494a739ab460",
-            "6e65bf1783a8b73d",
-            "1bb4d7624d300521",
-            "6d1f8bc6f85efe02"
-        ],
-        "x": 74,
-        "y": 659,
-        "w": 932,
-        "h": 142
-    },
-    {
-        "id": "e1a36263d549fba9",
-        "type": "modbus-client",
-        "name": "TERMOMETRIA",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": true,
-        "queueLogEnabled": true,
-        "failureLogEnabled": true,
-        "tcpHost": "192.168.106.150",
-        "tcpPort": "502",
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": "9600",
-        "serialDatabits": "8",
-        "serialStopbits": "1",
-        "serialParity": "none",
-        "serialConnectionDelay": "100",
-        "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": 1,
-        "commandDelay": 80,
-        "clientTimeout": 1000,
-        "reconnectOnTimeout": true,
-        "reconnectTimeout": 1500,
-        "parallelUnitIdsAllowed": false,
-        "showErrors": true,
-        "showWarnings": true,
-        "showLogs": true
-    },
-    {
-        "id": "2b3a0580ed7eda92",
-        "type": "MSSQL-CN",
-        "name": "FMAPACILAGUA",
-        "server": "apacilagua.friomamut.pe",
-        "encyption": false,
-        "database": "FMAPACILAGUA"
-    },
-    {
-        "id": "8b90f819a3eaf0a1",
-        "type": "debug",
-        "z": "6e87ae00ebb3fb14",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 390,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "0e613b2512040099",
-        "type": "inject",
-        "z": "6e87ae00ebb3fb14",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 140,
-        "y": 140,
-        "wires": [
-            [
-                "ae2eacd7a4c67cb0"
-            ]
-        ]
-    },
-    {
-        "id": "ae2eacd7a4c67cb0",
-        "type": "modbus-getter",
-        "z": "6e87ae00ebb3fb14",
-        "name": "",
-        "showStatusActivities": true,
-        "showErrors": true,
-        "showWarnings": true,
-        "logIOActivities": false,
-        "unitid": "4",
-        "dataType": "HoldingRegister",
-        "adr": "256",
-        "quantity": "1",
-        "server": "e1a36263d549fba9",
-        "useIOFile": false,
-        "ioFile": "",
-        "useIOForPayload": false,
-        "emptyMsgOnFail": false,
-        "keepMsgProperties": false,
-        "delayOnStart": false,
-        "enableDeformedMessages": false,
-        "startDelayTime": "",
-        "x": 200,
-        "y": 200,
-        "wires": [
-            [
-                "fb531dcd416bda0d"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "fb531dcd416bda0d",
-        "type": "buffer-parser",
-        "z": "6e87ae00ebb3fb14",
-        "name": "",
-        "data": "payload",
-        "dataType": "msg",
-        "specification": "spec",
-        "specificationType": "ui",
-        "items": [
-            {
-                "type": "int16be",
-                "name": "item1",
-                "offset": 0,
-                "length": -1,
-                "offsetbit": 0,
-                "scale": "0.1",
-                "mask": ""
-            }
-        ],
-        "swap1": "",
-        "swap2": "",
-        "swap3": "",
-        "swap1Type": "swap",
-        "swap2Type": "swap",
-        "swap3Type": "swap",
-        "msgProperty": "payload",
-        "msgPropertyType": "str",
-        "resultType": "value",
-        "resultTypeType": "return",
-        "multipleResult": true,
-        "fanOutMultipleResult": false,
-        "setTopic": false,
-        "outputs": 1,
-        "x": 290,
-        "y": 260,
-        "wires": [
-            [
-                "8b90f819a3eaf0a1"
-            ]
-        ]
-    },
-    {
-        "id": "7cc6c60b87f206f0",
+        "id": "4a8b05df1a23da4e",
         "type": "function",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "REGISTRO",
-        "func": "msg.payload = [\n\n// TUNEL 1 (Pulpa 1-12 => IDModbus 256)\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 1\",  \"UnitId\": 1,  \"IDModbus\": 256,  \"IDAMB\": 1, \"IDSENSOR\": 1 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 2\",  \"UnitId\": 2,  \"IDModbus\": 256,  \"IDAMB\": 1, \"IDSENSOR\": 2 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 3\",  \"UnitId\": 3,  \"IDModbus\": 256,  \"IDAMB\": 1, \"IDSENSOR\": 3 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 4\",  \"UnitId\": 4,  \"IDModbus\": 256,  \"IDAMB\": 1, \"IDSENSOR\": 4 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 5\",  \"UnitId\": 5,  \"IDModbus\": 256,  \"IDAMB\": 1, \"IDSENSOR\": 5 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 6\",  \"UnitId\": 6,  \"IDModbus\": 256,  \"IDAMB\": 1, \"IDSENSOR\": 6 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 7\",  \"UnitId\": 7,  \"IDModbus\": 256,  \"IDAMB\": 1, \"IDSENSOR\": 7 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 8\",  \"UnitId\": 8,  \"IDModbus\": 256,  \"IDAMB\": 1, \"IDSENSOR\": 8 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 9\",  \"UnitId\": 9,  \"IDModbus\": 256,  \"IDAMB\": 1, \"IDSENSOR\": 9 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 10\",  \"UnitId\": 10,  \"IDModbus\": 256,  \"IDAMB\": 1, \"IDSENSOR\": 10 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 11\",  \"UnitId\": 11,  \"IDModbus\": 256,  \"IDAMB\": 1, \"IDSENSOR\": 11 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 12\",  \"UnitId\": 12,  \"IDModbus\": 256,  \"IDAMB\": 1, \"IDSENSOR\": 12 },\n\n// TUNEL 2 (Pulpa 1-12 => IDModbus 256)\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 1\",  \"UnitId\": 13,  \"IDModbus\": 256,  \"IDAMB\": 2, \"IDSENSOR\": 1 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 2\",  \"UnitId\": 14,  \"IDModbus\": 256,  \"IDAMB\": 2, \"IDSENSOR\": 2 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 3\",  \"UnitId\": 15,  \"IDModbus\": 256,  \"IDAMB\": 2, \"IDSENSOR\": 3 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 4\",  \"UnitId\": 16,  \"IDModbus\": 256,  \"IDAMB\": 2, \"IDSENSOR\": 4 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 5\",  \"UnitId\": 17,  \"IDModbus\": 256,  \"IDAMB\": 2, \"IDSENSOR\": 5 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 6\",  \"UnitId\": 18,  \"IDModbus\": 256,  \"IDAMB\": 2, \"IDSENSOR\": 6 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 7\",  \"UnitId\": 19,  \"IDModbus\": 256,  \"IDAMB\": 2, \"IDSENSOR\": 7 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 8\",  \"UnitId\": 20,  \"IDModbus\": 256,  \"IDAMB\": 2, \"IDSENSOR\": 8 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 9\",  \"UnitId\": 21,  \"IDModbus\": 256,  \"IDAMB\": 2, \"IDSENSOR\": 9 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 10\",  \"UnitId\": 22,  \"IDModbus\": 256,  \"IDAMB\": 2, \"IDSENSOR\": 10 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 11\",  \"UnitId\": 23,  \"IDModbus\": 256,  \"IDAMB\": 2, \"IDSENSOR\": 11 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 12\",  \"UnitId\": 24,  \"IDModbus\": 256,  \"IDAMB\": 2, \"IDSENSOR\": 12 },\n\n// TUNEL 3 (Pulpa 1-12 => IDModbus 256)\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 1\",  \"UnitId\": 25,  \"IDModbus\": 256,  \"IDAMB\": 3, \"IDSENSOR\": 1 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 2\",  \"UnitId\": 26,  \"IDModbus\": 256,  \"IDAMB\": 3, \"IDSENSOR\": 2 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 3\",  \"UnitId\": 27,  \"IDModbus\": 256,  \"IDAMB\": 3, \"IDSENSOR\": 3 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 4\",  \"UnitId\": 28,  \"IDModbus\": 256,  \"IDAMB\": 3, \"IDSENSOR\": 4 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 5\",  \"UnitId\": 29,  \"IDModbus\": 256,  \"IDAMB\": 3, \"IDSENSOR\": 5 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 6\",  \"UnitId\": 30,  \"IDModbus\": 256,  \"IDAMB\": 3, \"IDSENSOR\": 6 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 7\",  \"UnitId\": 31,  \"IDModbus\": 256,  \"IDAMB\": 3, \"IDSENSOR\": 7 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 8\",  \"UnitId\": 32,  \"IDModbus\": 256,  \"IDAMB\": 3, \"IDSENSOR\": 8 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 9\",  \"UnitId\": 33,  \"IDModbus\": 256,  \"IDAMB\": 3, \"IDSENSOR\": 9 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 10\",  \"UnitId\": 34,  \"IDModbus\": 256,  \"IDAMB\": 3, \"IDSENSOR\": 10 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 11\",  \"UnitId\": 35,  \"IDModbus\": 256,  \"IDAMB\": 3, \"IDSENSOR\": 11 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 12\",  \"UnitId\": 36,  \"IDModbus\": 256,  \"IDAMB\": 3, \"IDSENSOR\": 12 },\n\n// TUNEL 4 (Pulpa 1-12 => IDModbus 256)\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 1\",  \"UnitId\": 37,  \"IDModbus\": 256,  \"IDAMB\": 4, \"IDSENSOR\": 1 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 2\",  \"UnitId\": 38,  \"IDModbus\": 256,  \"IDAMB\": 4, \"IDSENSOR\": 2 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 3\",  \"UnitId\": 39,  \"IDModbus\": 256,  \"IDAMB\": 4, \"IDSENSOR\": 3 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 4\",  \"UnitId\": 40,  \"IDModbus\": 256,  \"IDAMB\": 4, \"IDSENSOR\": 4 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 5\",  \"UnitId\": 41,  \"IDModbus\": 256,  \"IDAMB\": 4, \"IDSENSOR\": 5 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 6\",  \"UnitId\": 42,  \"IDModbus\": 256,  \"IDAMB\": 4, \"IDSENSOR\": 6 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 7\",  \"UnitId\": 43,  \"IDModbus\": 256,  \"IDAMB\": 4, \"IDSENSOR\": 7 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 8\",  \"UnitId\": 44,  \"IDModbus\": 256,  \"IDAMB\": 4, \"IDSENSOR\": 8 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 9\",  \"UnitId\": 45,  \"IDModbus\": 256,  \"IDAMB\": 4, \"IDSENSOR\": 9 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 10\",  \"UnitId\": 46,  \"IDModbus\": 256,  \"IDAMB\": 4, \"IDSENSOR\": 10 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 11\",  \"UnitId\": 47,  \"IDModbus\": 256,  \"IDAMB\": 4, \"IDSENSOR\": 11 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 12\",  \"UnitId\": 48,  \"IDModbus\": 256,  \"IDAMB\": 4, \"IDSENSOR\": 12 },\n\n// TUNEL 5 (Pulpa 1-12 => IDModbus 256)\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 1\",  \"UnitId\": 49,  \"IDModbus\": 256,  \"IDAMB\": 5, \"IDSENSOR\": 1 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 2\",  \"UnitId\": 50,  \"IDModbus\": 256,  \"IDAMB\": 5, \"IDSENSOR\": 2 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 3\",  \"UnitId\": 51,  \"IDModbus\": 256,  \"IDAMB\": 5, \"IDSENSOR\": 3 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 4\",  \"UnitId\": 52,  \"IDModbus\": 256,  \"IDAMB\": 5, \"IDSENSOR\": 4 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 5\",  \"UnitId\": 53,  \"IDModbus\": 256,  \"IDAMB\": 5, \"IDSENSOR\": 5 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 6\",  \"UnitId\": 54,  \"IDModbus\": 256,  \"IDAMB\": 5, \"IDSENSOR\": 6 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 7\",  \"UnitId\": 55,  \"IDModbus\": 256,  \"IDAMB\": 5, \"IDSENSOR\": 7 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 8\",  \"UnitId\": 56,  \"IDModbus\": 256,  \"IDAMB\": 5, \"IDSENSOR\": 8 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 9\",  \"UnitId\": 57,  \"IDModbus\": 256,  \"IDAMB\": 5, \"IDSENSOR\": 9 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 10\",  \"UnitId\": 58,  \"IDModbus\": 256,  \"IDAMB\": 5, \"IDSENSOR\": 10 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 11\",  \"UnitId\": 59,  \"IDModbus\": 256,  \"IDAMB\": 5, \"IDSENSOR\": 11 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 12\",  \"UnitId\": 60,  \"IDModbus\": 256,  \"IDAMB\": 5, \"IDSENSOR\": 12 },\n\n/*\n// TUNEL 6 (Pulpa 1-12 => IDModbus 256)\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 1\",  \"UnitId\": 61,  \"IDModbus\": 256,  \"IDAMB\": 6, \"IDSENSOR\": 1 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 2\",  \"UnitId\": 62,  \"IDModbus\": 256,  \"IDAMB\": 6, \"IDSENSOR\": 2 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 3\",  \"UnitId\": 63,  \"IDModbus\": 256,  \"IDAMB\": 6, \"IDSENSOR\": 3 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 4\",  \"UnitId\": 64,  \"IDModbus\": 256,  \"IDAMB\": 6, \"IDSENSOR\": 4 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 5\",  \"UnitId\": 65,  \"IDModbus\": 256,  \"IDAMB\": 6, \"IDSENSOR\": 5 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 6\",  \"UnitId\": 66,  \"IDModbus\": 256,  \"IDAMB\": 6, \"IDSENSOR\": 6 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 7\",  \"UnitId\": 67,  \"IDModbus\": 256,  \"IDAMB\": 6, \"IDSENSOR\": 7 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 8\",  \"UnitId\": 68,  \"IDModbus\": 256,  \"IDAMB\": 6, \"IDSENSOR\": 8 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 9\",  \"UnitId\": 69,  \"IDModbus\": 256,  \"IDAMB\": 6, \"IDSENSOR\": 9 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 10\",  \"UnitId\": 70,  \"IDModbus\": 256,  \"IDAMB\": 6, \"IDSENSOR\": 10 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 11\",  \"UnitId\": 71,  \"IDModbus\": 256,  \"IDAMB\": 6, \"IDSENSOR\": 11 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 12\",  \"UnitId\": 72,  \"IDModbus\": 256,  \"IDAMB\": 6, \"IDSENSOR\": 12 },\n\n// TUNEL 7 (Pulpa 1-12 => IDModbus 256)\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 1\",  \"UnitId\": 73,  \"IDModbus\": 256,  \"IDAMB\": 7, \"IDSENSOR\": 1 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 2\",  \"UnitId\": 74,  \"IDModbus\": 256,  \"IDAMB\": 7, \"IDSENSOR\": 2 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 3\",  \"UnitId\": 75,  \"IDModbus\": 256,  \"IDAMB\": 7, \"IDSENSOR\": 3 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 4\",  \"UnitId\": 76,  \"IDModbus\": 256,  \"IDAMB\": 7, \"IDSENSOR\": 4 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 5\",  \"UnitId\": 77,  \"IDModbus\": 256,  \"IDAMB\": 7, \"IDSENSOR\": 5 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 6\",  \"UnitId\": 78,  \"IDModbus\": 256,  \"IDAMB\": 7, \"IDSENSOR\": 6 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 7\",  \"UnitId\": 79,  \"IDModbus\": 256,  \"IDAMB\": 7, \"IDSENSOR\": 7 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 8\",  \"UnitId\": 80,  \"IDModbus\": 256,  \"IDAMB\": 7, \"IDSENSOR\": 8 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 9\",  \"UnitId\": 81,  \"IDModbus\": 256,  \"IDAMB\": 7, \"IDSENSOR\": 9 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 10\",  \"UnitId\": 82,  \"IDModbus\": 256,  \"IDAMB\": 7, \"IDSENSOR\": 10 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 11\",  \"UnitId\": 83,  \"IDModbus\": 256,  \"IDAMB\": 7, \"IDSENSOR\": 11 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 12\",  \"UnitId\": 84,  \"IDModbus\": 256,  \"IDAMB\": 7, \"IDSENSOR\": 12 },\n\n// TUNEL 8 (Pulpa 1-12 => IDModbus 256)\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 1\",  \"UnitId\": 85,  \"IDModbus\": 256,  \"IDAMB\": 8, \"IDSENSOR\": 1 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 2\",  \"UnitId\": 86,  \"IDModbus\": 256,  \"IDAMB\": 8, \"IDSENSOR\": 2 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 3\",  \"UnitId\": 87,  \"IDModbus\": 256,  \"IDAMB\": 8, \"IDSENSOR\": 3 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 4\",  \"UnitId\": 88,  \"IDModbus\": 256,  \"IDAMB\": 8, \"IDSENSOR\": 4 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 5\",  \"UnitId\": 89,  \"IDModbus\": 256,  \"IDAMB\": 8, \"IDSENSOR\": 5 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 6\",  \"UnitId\": 90,  \"IDModbus\": 256,  \"IDAMB\": 8, \"IDSENSOR\": 6 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 7\",  \"UnitId\": 91,  \"IDModbus\": 256,  \"IDAMB\": 8, \"IDSENSOR\": 7 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 8\",  \"UnitId\": 92,  \"IDModbus\": 256,  \"IDAMB\": 8, \"IDSENSOR\": 8 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 9\",  \"UnitId\": 93,  \"IDModbus\": 256,  \"IDAMB\": 8, \"IDSENSOR\": 9 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 10\",  \"UnitId\": 94,  \"IDModbus\": 256,  \"IDAMB\": 8, \"IDSENSOR\": 10 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 11\",  \"UnitId\": 95,  \"IDModbus\": 256,  \"IDAMB\": 8, \"IDSENSOR\": 11 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 12\",  \"UnitId\": 96,  \"IDModbus\": 256,  \"IDAMB\": 8, \"IDSENSOR\": 12 },\n\n// TUNEL 9 (Pulpa 1-12 => IDModbus 256)\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 1\",  \"UnitId\": 97,  \"IDModbus\": 256,  \"IDAMB\": 9, \"IDSENSOR\": 1 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 2\",  \"UnitId\": 98,  \"IDModbus\": 256,  \"IDAMB\": 9, \"IDSENSOR\": 2 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 3\",  \"UnitId\": 99,  \"IDModbus\": 256,  \"IDAMB\": 9, \"IDSENSOR\": 3 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 4\",  \"UnitId\": 100,  \"IDModbus\": 256,  \"IDAMB\": 9, \"IDSENSOR\": 4 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 5\",  \"UnitId\": 101,  \"IDModbus\": 256,  \"IDAMB\": 9, \"IDSENSOR\": 5 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 6\",  \"UnitId\": 102,  \"IDModbus\": 256,  \"IDAMB\": 9, \"IDSENSOR\": 6 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 7\",  \"UnitId\": 103,  \"IDModbus\": 256,  \"IDAMB\": 9, \"IDSENSOR\": 7 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 8\",  \"UnitId\": 104,  \"IDModbus\": 256,  \"IDAMB\": 9, \"IDSENSOR\": 8 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 9\",  \"UnitId\": 105,  \"IDModbus\": 256,  \"IDAMB\": 9, \"IDSENSOR\": 9 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 10\",  \"UnitId\": 106,  \"IDModbus\": 256,  \"IDAMB\": 9, \"IDSENSOR\": 10 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 11\",  \"UnitId\": 107,  \"IDModbus\": 256,  \"IDAMB\": 9, \"IDSENSOR\": 11 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 12\",  \"UnitId\": 108,  \"IDModbus\": 256,  \"IDAMB\": 9, \"IDSENSOR\": 12 },\n\n// TUNEL 10 (Pulpa 1-12 => IDModbus 256)\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"SENSOR 1\",  \"UnitId\": 109,  \"IDModbus\": 256,  \"IDAMB\": 10, \"IDSENSOR\": 1 },\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"SENSOR 2\",  \"UnitId\": 110,  \"IDModbus\": 256,  \"IDAMB\": 10, \"IDSENSOR\": 2 },\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"SENSOR 3\",  \"UnitId\": 111,  \"IDModbus\": 256,  \"IDAMB\": 10, \"IDSENSOR\": 3 },\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"SENSOR 4\",  \"UnitId\": 112,  \"IDModbus\": 256,  \"IDAMB\": 10, \"IDSENSOR\": 4 },\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"SENSOR 5\",  \"UnitId\": 113,  \"IDModbus\": 256,  \"IDAMB\": 10, \"IDSENSOR\": 5 },\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"SENSOR 6\",  \"UnitId\": 114,  \"IDModbus\": 256,  \"IDAMB\": 10, \"IDSENSOR\": 6 },\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"SENSOR 7\",  \"UnitId\": 115,  \"IDModbus\": 256,  \"IDAMB\": 10, \"IDSENSOR\": 7 },\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"SENSOR 8\",  \"UnitId\": 116,  \"IDModbus\": 256,  \"IDAMB\": 10, \"IDSENSOR\": 8 },\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"SENSOR 9\",  \"UnitId\": 117,  \"IDModbus\": 256,  \"IDAMB\": 10, \"IDSENSOR\": 9 },\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"SENSOR 10\",  \"UnitId\": 118,  \"IDModbus\": 256,  \"IDAMB\": 10, \"IDSENSOR\": 10 },\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"SENSOR 11\",  \"UnitId\": 119,  \"IDModbus\": 256,  \"IDAMB\": 10, \"IDSENSOR\": 11 },\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"SENSOR 12\",  \"UnitId\": 120,  \"IDModbus\": 256,  \"IDAMB\": 10, \"IDSENSOR\": 12 },\n*/\n// TUNEL 1 (Extras => UnitId 121-122, IDModbus 256)\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"AMBIENTE 1\", \"UnitId\": 61, \"IDModbus\": 256, \"IDAMB\": 1, \"IDSENSOR\": 20 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"AMBIENTE 2\", \"UnitId\": 62, \"IDModbus\": 256, \"IDAMB\": 1, \"IDSENSOR\": 21 },\n\n// TUNEL 2 (Extras => UnitId 123-124, IDModbus 256)\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"AMBIENTE 1\", \"UnitId\": 63, \"IDModbus\": 256, \"IDAMB\": 2, \"IDSENSOR\": 20 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"AMBIENTE 2\", \"UnitId\": 64, \"IDModbus\": 256, \"IDAMB\": 2, \"IDSENSOR\": 21 },\n\n// TUNEL 3 (Extras => UnitId 125-126, IDModbus 256)\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"AMBIENTE 1\", \"UnitId\": 65, \"IDModbus\": 256, \"IDAMB\": 3, \"IDSENSOR\": 20 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"AMBIENTE 2\", \"UnitId\": 66, \"IDModbus\": 256, \"IDAMB\": 3, \"IDSENSOR\": 21 },\n\n// TUNEL 4 (Extras => UnitId 127-128, IDModbus 256)\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"AMBIENTE 1\", \"UnitId\": 67, \"IDModbus\": 256, \"IDAMB\": 4, \"IDSENSOR\": 20 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"AMBIENTE 2\", \"UnitId\": 68, \"IDModbus\": 256, \"IDAMB\": 4, \"IDSENSOR\": 21 },\n\n// TUNEL 5 (Extras => UnitId 129-130, IDModbus 256)\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"AMBIENTE 1\", \"UnitId\": 69, \"IDModbus\": 256, \"IDAMB\": 5, \"IDSENSOR\": 20 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"AMBIENTE 2\", \"UnitId\": 70, \"IDModbus\": 256, \"IDAMB\": 5, \"IDSENSOR\": 21 },\n/*\n// TUNEL 6 (Extras => UnitId 131-132, IDModbus 256)\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"AMBIENTE 1\", \"UnitId\": 131, \"IDModbus\": 256, \"IDAMB\": 6, \"IDSENSOR\": 20 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"AMBIENTE 2\", \"UnitId\": 132, \"IDModbus\": 256, \"IDAMB\": 6, \"IDSENSOR\": 21 },\n\n// TUNEL 7 (Extras => UnitId 133-134, IDModbus 256)\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"AMBIENTE 1\", \"UnitId\": 133, \"IDModbus\": 256, \"IDAMB\": 7, \"IDSENSOR\": 20 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"AMBIENTE 2\", \"UnitId\": 134, \"IDModbus\": 256, \"IDAMB\": 7, \"IDSENSOR\": 21 },\n\n// TUNEL 8 (Extras => UnitId 135-136, IDModbus 256)\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"AMBIENTE 1\", \"UnitId\": 135, \"IDModbus\": 256, \"IDAMB\": 8, \"IDSENSOR\": 20 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"AMBIENTE 2\", \"UnitId\": 136, \"IDModbus\": 256, \"IDAMB\": 8, \"IDSENSOR\": 21 },\n\n// TUNEL 9 (Extras => UnitId 137-138, IDModbus 256)\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"AMBIENTE 1\", \"UnitId\": 137, \"IDModbus\": 256, \"IDAMB\": 9, \"IDSENSOR\": 20 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"AMBIENTE 2\", \"UnitId\": 138, \"IDModbus\": 256, \"IDAMB\": 9, \"IDSENSOR\": 21 },\n\n// TUNEL 10 (Extras => UnitId 139-140, IDModbus 256)\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"AMBIENTE 1\", \"UnitId\": 139, \"IDModbus\": 256, \"IDAMB\": 10, \"IDSENSOR\": 20 },\n{ \"Ambiente\": \"Tunel 10\", \"Sensor\": \"AMBIENTE 2\", \"UnitId\": 140, \"IDModbus\": 256, \"IDAMB\": 10, \"IDSENSOR\": 21 },\n*/\n]\n\nreturn msg;",
+        "func": "msg.payload = [\n    { \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 1\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 0, \"IDAMB\": 1, \"IDSENSOR\": 1, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20020 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 2\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 1, \"IDAMB\": 1, \"IDSENSOR\": 2, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20021 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 3\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 2, \"IDAMB\": 1, \"IDSENSOR\": 3, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20022 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 4\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 3, \"IDAMB\": 1, \"IDSENSOR\": 4, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20023 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 5\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 4, \"IDAMB\": 1, \"IDSENSOR\": 5, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20520 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 6\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 5, \"IDAMB\": 1, \"IDSENSOR\": 6, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20521 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 7\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 6, \"IDAMB\": 1, \"IDSENSOR\": 7, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20522 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 8\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 7, \"IDAMB\": 1, \"IDSENSOR\": 8, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20523 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 9\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 8, \"IDAMB\": 1, \"IDSENSOR\": 9, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21020 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 10\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 9, \"IDAMB\": 1, \"IDSENSOR\": 10, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21021 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 11\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 10, \"IDAMB\": 1, \"IDSENSOR\": 11, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21022 },\n{ \"Ambiente\": \"Tunel 1\", \"Sensor\": \"SENSOR 12\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 11, \"IDAMB\": 1, \"IDSENSOR\": 12, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21023 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 1\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 12, \"IDAMB\": 2, \"IDSENSOR\": 1, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22020 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 2\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 13, \"IDAMB\": 2, \"IDSENSOR\": 2, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22021 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 3\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 14, \"IDAMB\": 2, \"IDSENSOR\": 3, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22022 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 4\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 15, \"IDAMB\": 2, \"IDSENSOR\": 4, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22023 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 5\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 16, \"IDAMB\": 2, \"IDSENSOR\": 5, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22520 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 6\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 17, \"IDAMB\": 2, \"IDSENSOR\": 6, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22521 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 7\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 18, \"IDAMB\": 2, \"IDSENSOR\": 7, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22522 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 8\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 19, \"IDAMB\": 2, \"IDSENSOR\": 8, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22523 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 9\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 20, \"IDAMB\": 2, \"IDSENSOR\": 9, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23020 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 10\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 21, \"IDAMB\": 2, \"IDSENSOR\": 10, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23021 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 11\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 22, \"IDAMB\": 2, \"IDSENSOR\": 11, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23022 },\n{ \"Ambiente\": \"Tunel 2\", \"Sensor\": \"SENSOR 12\", \"IP\": \"192.168.0.50\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 23, \"IDAMB\": 2, \"IDSENSOR\": 12, \"IP CALIBRADOR\": \"192.168.0.50\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23023 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 1\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 0, \"IDAMB\": 3, \"IDSENSOR\": 1, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20020 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 2\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 1, \"IDAMB\": 3, \"IDSENSOR\": 2, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20021 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 3\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 2, \"IDAMB\": 3, \"IDSENSOR\": 3, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20022 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 4\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 3, \"IDAMB\": 3, \"IDSENSOR\": 4, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20023 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 5\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 4, \"IDAMB\": 3, \"IDSENSOR\": 5, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20520 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 6\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 5, \"IDAMB\": 3, \"IDSENSOR\": 6, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20521 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 7\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 6, \"IDAMB\": 3, \"IDSENSOR\": 7, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20522 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 8\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 7, \"IDAMB\": 3, \"IDSENSOR\": 8, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20523 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 9\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 8, \"IDAMB\": 3, \"IDSENSOR\": 9, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21020 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 10\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 9, \"IDAMB\": 3, \"IDSENSOR\": 10, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21021 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 11\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 10, \"IDAMB\": 3, \"IDSENSOR\": 11, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21022 },\n{ \"Ambiente\": \"Tunel 3\", \"Sensor\": \"SENSOR 12\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 11, \"IDAMB\": 3, \"IDSENSOR\": 12, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21023 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 1\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 12, \"IDAMB\": 4, \"IDSENSOR\": 1, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22020 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 2\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 13, \"IDAMB\": 4, \"IDSENSOR\": 2, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22021 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 3\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 14, \"IDAMB\": 4, \"IDSENSOR\": 3, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22022 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 4\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 15, \"IDAMB\": 4, \"IDSENSOR\": 4, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22023 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 5\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 16, \"IDAMB\": 4, \"IDSENSOR\": 5, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22520 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 6\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 17, \"IDAMB\": 4, \"IDSENSOR\": 6, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22521 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 7\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 18, \"IDAMB\": 4, \"IDSENSOR\": 7, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22522 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 8\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 19, \"IDAMB\": 4, \"IDSENSOR\": 8, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22523 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 9\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 20, \"IDAMB\": 4, \"IDSENSOR\": 9, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23020 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 10\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 21, \"IDAMB\": 4, \"IDSENSOR\": 10, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23021 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 11\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 22, \"IDAMB\": 4, \"IDSENSOR\": 11, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23022 },\n{ \"Ambiente\": \"Tunel 4\", \"Sensor\": \"SENSOR 12\", \"IP\": \"192.168.0.51\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 23, \"IDAMB\": 4, \"IDSENSOR\": 12, \"IP CALIBRADOR\": \"192.168.0.51\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23023 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 1\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 0, \"IDAMB\": 5, \"IDSENSOR\": 1, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20020 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 2\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 1, \"IDAMB\": 5, \"IDSENSOR\": 2, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20021 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 3\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 2, \"IDAMB\": 5, \"IDSENSOR\": 3, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20022 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 4\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 3, \"IDAMB\": 5, \"IDSENSOR\": 4, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20023 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 5\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 4, \"IDAMB\": 5, \"IDSENSOR\": 5, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20520 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 6\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 5, \"IDAMB\": 5, \"IDSENSOR\": 6, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20521 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 7\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 6, \"IDAMB\": 5, \"IDSENSOR\": 7, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20522 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 8\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 7, \"IDAMB\": 5, \"IDSENSOR\": 8, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20523 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 9\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 8, \"IDAMB\": 5, \"IDSENSOR\": 9, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21020 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 10\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 9, \"IDAMB\": 5, \"IDSENSOR\": 10, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21021 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 11\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 10, \"IDAMB\": 5, \"IDSENSOR\": 11, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21022 },\n{ \"Ambiente\": \"Tunel 5\", \"Sensor\": \"SENSOR 12\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 11, \"IDAMB\": 5, \"IDSENSOR\": 12, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21023 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 1\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 12, \"IDAMB\": 6, \"IDSENSOR\": 1, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22020 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 2\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 13, \"IDAMB\": 6, \"IDSENSOR\": 2, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22021 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 3\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 14, \"IDAMB\": 6, \"IDSENSOR\": 3, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22022 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 4\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 15, \"IDAMB\": 6, \"IDSENSOR\": 4, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22023 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 5\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 16, \"IDAMB\": 6, \"IDSENSOR\": 5, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22520 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 6\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 17, \"IDAMB\": 6, \"IDSENSOR\": 6, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22521 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 7\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 18, \"IDAMB\": 6, \"IDSENSOR\": 7, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22522 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 8\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 19, \"IDAMB\": 6, \"IDSENSOR\": 8, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22523 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 9\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 20, \"IDAMB\": 6, \"IDSENSOR\": 9, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23020 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 10\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 21, \"IDAMB\": 6, \"IDSENSOR\": 10, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23021 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 11\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 22, \"IDAMB\": 6, \"IDSENSOR\": 11, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23022 },\n{ \"Ambiente\": \"Tunel 6\", \"Sensor\": \"SENSOR 12\", \"IP\": \"192.168.0.52\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 23, \"IDAMB\": 6, \"IDSENSOR\": 12, \"IP CALIBRADOR\": \"192.168.0.52\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23023 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 1\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 0, \"IDAMB\": 7, \"IDSENSOR\": 1, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20020 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 2\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 1, \"IDAMB\": 7, \"IDSENSOR\": 2, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20021 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 3\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 2, \"IDAMB\": 7, \"IDSENSOR\": 3, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20022 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 4\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 3, \"IDAMB\": 7, \"IDSENSOR\": 4, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20023 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 5\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 4, \"IDAMB\": 7, \"IDSENSOR\": 5, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20520 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 6\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 5, \"IDAMB\": 7, \"IDSENSOR\": 6, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20521 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 7\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 6, \"IDAMB\": 7, \"IDSENSOR\": 7, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20522 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 8\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 7, \"IDAMB\": 7, \"IDSENSOR\": 8, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 20523 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 9\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 8, \"IDAMB\": 7, \"IDSENSOR\": 9, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21020 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 10\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 9, \"IDAMB\": 7, \"IDSENSOR\": 10, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21021 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 11\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 10, \"IDAMB\": 7, \"IDSENSOR\": 11, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21022 },\n{ \"Ambiente\": \"Tunel 7\", \"Sensor\": \"SENSOR 12\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 11, \"IDAMB\": 7, \"IDSENSOR\": 12, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 21023 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 1\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 12, \"IDAMB\": 8, \"IDSENSOR\": 1, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22020 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 2\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 13, \"IDAMB\": 8, \"IDSENSOR\": 2, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22021 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 3\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 14, \"IDAMB\": 8, \"IDSENSOR\": 3, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22022 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 4\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 15, \"IDAMB\": 8, \"IDSENSOR\": 4, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22023 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 5\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 16, \"IDAMB\": 8, \"IDSENSOR\": 5, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22520 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 6\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 17, \"IDAMB\": 8, \"IDSENSOR\": 6, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22521 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 7\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 18, \"IDAMB\": 8, \"IDSENSOR\": 7, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22522 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 8\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 19, \"IDAMB\": 8, \"IDSENSOR\": 8, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 22523 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 9\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 20, \"IDAMB\": 8, \"IDSENSOR\": 9, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23020 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 10\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 21, \"IDAMB\": 8, \"IDSENSOR\": 10, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23021 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 11\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 22, \"IDAMB\": 8, \"IDSENSOR\": 11, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23022 },\n{ \"Ambiente\": \"Tunel 8\", \"Sensor\": \"SENSOR 12\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 23, \"IDAMB\": 8, \"IDSENSOR\": 12, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23023 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 1\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 24, \"IDAMB\": 8, \"IDSENSOR\": 1, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23520 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 2\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 25, \"IDAMB\": 8, \"IDSENSOR\": 2, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23521 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 3\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 26, \"IDAMB\": 8, \"IDSENSOR\": 3, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23522 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 4\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 27, \"IDAMB\": 8, \"IDSENSOR\": 4, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 23523 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 5\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 28, \"IDAMB\": 8, \"IDSENSOR\": 5, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 24020 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 6\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 29, \"IDAMB\": 8, \"IDSENSOR\": 6, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 24021 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 7\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 30, \"IDAMB\": 8, \"IDSENSOR\": 7, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 24022 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 8\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 31, \"IDAMB\": 8, \"IDSENSOR\": 8, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 24023 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 9\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 32, \"IDAMB\": 8, \"IDSENSOR\": 9, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 24520 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 10\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 33, \"IDAMB\": 8, \"IDSENSOR\": 10, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 24521 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 11\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 34, \"IDAMB\": 8, \"IDSENSOR\": 11, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 24522 },\n{ \"Ambiente\": \"Tunel 9\", \"Sensor\": \"SENSOR 12\", \"IP\": \"192.168.0.53\", \"UnitId\": 1, \"Fc\": 4, \"IDModbus\": 35, \"IDAMB\": 8, \"IDSENSOR\": 12, \"IP CALIBRADOR\": \"192.168.0.53\", \"UnitID Calibrador\": 1, \"Fc Calibrador\": 4, \"IDModbus Calibrador\": 24523 }\n]\n\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 520,
+        "x": 330,
+        "y": 80,
         "wires": [
             [
-                "356d6ca582a22ab5"
+                "62f2611aea9a905a"
             ]
         ]
     },
     {
-        "id": "69a471e8a038c9be",
+        "id": "24fa7262106a48cd",
         "type": "inject",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "SETUP",
         "props": [
             {
@@ -353,19 +96,19 @@
         "topic": "SETUP",
         "payload": "",
         "payloadType": "date",
-        "x": 180,
-        "y": 520,
+        "x": 160,
+        "y": 80,
         "wires": [
             [
-                "7cc6c60b87f206f0"
+                "4a8b05df1a23da4e"
             ]
         ]
     },
     {
-        "id": "a5a145bc079c1adc",
+        "id": "e7e6246d59c7d180",
         "type": "debug",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -375,35 +118,36 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 850,
-        "y": 520,
+        "x": 830,
+        "y": 80,
         "wires": []
     },
     {
-        "id": "356d6ca582a22ab5",
+        "id": "62f2611aea9a905a",
         "type": "function",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "PROCESADO",
         "func": "// ===============================================\n// CONFIG\n// ===============================================\nconst MAX_DISTANCE = 20;  // distancia máxima entre IDs Modbus\nlet tabla = msg.payload;\n\n// ===============================================\n// 1. VALIDAR Y LIMPIAR\n// ===============================================\nlet registros = tabla.filter(r =>\n    r &&\n    r.Ambiente &&\n    r.Sensor &&\n    typeof r.IDModbus === \"number\"\n);\n\nif (registros.length === 0) {\n    msg.payload = { ok: false, error: \"No hay filas válidas\" };\n    return msg;\n}\n\n// ===============================================\n// 2. AGRUPAR POR AMBIENTE\n// ===============================================\nlet gruposAmbiente = {};\n\nregistros.forEach(r => {\n    if (!gruposAmbiente[r.Ambiente]) gruposAmbiente[r.Ambiente] = [];\n    gruposAmbiente[r.Ambiente].push(r);\n});\n\n// ===============================================\n// 3. AGRUPAR POR IDModbus (USANDO DIFERENCIA ENTRE REGISTROS SEGUIDOS)\n// ===============================================\nlet resultado = {};\n\nObject.keys(gruposAmbiente).forEach(amb => {\n\n    let lista = gruposAmbiente[amb];\n\n    // Ordenar por IDModbus ascendente\n    lista.sort((a, b) => a.IDModbus - b.IDModbus);\n\n    let subgrupos = [];\n    let actual = [lista[0]];\n\n    for (let i = 1; i < lista.length; i++) {\n        const prev = lista[i - 1].IDModbus;\n        const curr = lista[i].IDModbus;\n\n        // Si la distancia entre registros consecutivos supera el límite → nuevo grupo\n        if ((curr - prev) > MAX_DISTANCE) {\n            subgrupos.push(actual);\n            actual = [lista[i]];\n        } else {\n            actual.push(lista[i]);\n        }\n    }\n\n    // guardar último grupo\n    if (actual.length > 0) subgrupos.push(actual);\n\n    resultado[amb] = subgrupos;\n});\n\n// ===============================================\n// 4. SALIDA\n// ===============================================\nmsg.payload = {\n    ok: true,\n    ambientes: Object.keys(resultado).length,\n    grupos: resultado\n};\n\nglobal.set(\"modbus32.compact\", resultado);\n\nreturn msg;\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 540,
-        "y": 520,
+        "x": 520,
+        "y": 80,
         "wires": [
             [
-                "a5a145bc079c1adc"
+                "e7e6246d59c7d180"
             ]
         ]
     },
     {
-        "id": "a704be1b1a1ff49d",
+        "id": "d3089574c8fb8b03",
         "type": "inject",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "",
         "props": [
             {
@@ -414,26 +158,26 @@
                 "vt": "str"
             }
         ],
-        "repeat": "60",
+        "repeat": "30",
         "crontab": "",
-        "once": false,
+        "once": true,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 190,
-        "y": 600,
+        "x": 170,
+        "y": 160,
         "wires": [
             [
-                "2c336d8e968f8a81"
+                "4814a45b83d3c4ac"
             ]
         ]
     },
     {
-        "id": "2c336d8e968f8a81",
+        "id": "4814a45b83d3c4ac",
         "type": "function",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "ITERADOR DE GRUPO",
         "func": "const compact = global.get(\"modbus32.compact\");\nif (!compact) {\n    node.error(\"⚠️ No hay estructura compactada en memoria global.\");\n    return;\n}\n\nconst ambientes = Object.keys(compact);\nif (ambientes.length === 0) {\n    node.error(\"⚠️ No hay ambientes disponibles en compact.\");\n    return;\n}\n\nfor (let idxAmb = 0; idxAmb < ambientes.length; idxAmb++) {\n    const ambiente = ambientes[idxAmb];\n    const subgrupos = compact[ambiente];\n\n    if (!Array.isArray(subgrupos) || subgrupos.length === 0) {\n        node.warn(\"⚠️ Ambiente vacío: \" + ambiente);\n        continue;\n    }\n\n    for (let idxGrupo = 0; idxGrupo < subgrupos.length; idxGrupo++) {\n        const sensores = subgrupos[idxGrupo];\n\n        if (!Array.isArray(sensores) || sensores.length === 0) {\n            node.warn(`⚠️ Subgrupo vacío → Ambiente: ${ambiente}, Grupo: ${idxGrupo}`);\n            continue;\n        }\n\n        node.send({\n            payload: sensores,\n            info: {\n                ambiente,\n                grupo: idxGrupo,\n                totalGrupos: subgrupos.length,\n                sensorCount: sensores.length,\n                ambienteIndex: idxAmb,\n                totalAmbientes: ambientes.length\n            }\n        });\n    }\n}\n\nnode.log(\"✔️ Iteración completa: enviados todos los subgrupos.\");\nreturn;\n",
         "outputs": 1,
@@ -442,45 +186,25 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
-        "y": 600,
+        "x": 410,
+        "y": 160,
         "wires": [
             [
-                "4cdad7dafa3c3218"
+                "69fabfe02f929733"
             ]
         ]
     },
     {
-        "id": "82a1d1ef21eac098",
-        "type": "split",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "x": 830,
-        "y": 600,
-        "wires": [
-            [
-                "2772aa7465bab013"
-            ]
-        ]
-    },
-    {
-        "id": "810979522cc6013b",
+        "id": "be8ac1b4c8b1fc34",
         "type": "modbus-flex-getter",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "",
         "showStatusActivities": true,
         "showErrors": true,
         "showWarnings": true,
         "logIOActivities": false,
-        "server": "e1a36263d549fba9",
+        "server": "47ac650c6e355911",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
@@ -489,51 +213,52 @@
         "delayOnStart": false,
         "enableDeformedMessages": true,
         "startDelayTime": "",
-        "x": 410,
-        "y": 700,
+        "x": 390,
+        "y": 220,
         "wires": [
             [
-                "ed090639031737fa"
+                "9d4bb989220e9692"
             ],
             []
         ]
     },
     {
-        "id": "a4e6efe594f9a6b0",
+        "id": "1c9830c0bcdae251",
         "type": "link in",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "link in 1",
         "links": [
-            "3a4fd6d570b96dde"
+            "ec94247cea427629"
         ],
-        "x": 265,
-        "y": 700,
+        "x": 95,
+        "y": 280,
         "wires": [
             [
-                "810979522cc6013b"
+                "a0a602a83844add0"
             ]
         ]
     },
     {
-        "id": "3a4fd6d570b96dde",
+        "id": "ec94247cea427629",
         "type": "link out",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "link out 1",
         "mode": "link",
         "links": [
-            "a4e6efe594f9a6b0"
+            "1c9830c0bcdae251"
         ],
-        "x": 1215,
-        "y": 600,
+        "x": 1065,
+        "y": 160,
         "wires": []
     },
     {
-        "id": "623e901ef84ee0ac",
+        "id": "c2fabbcb6166421e",
         "type": "debug",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "d": true,
+        "g": "4965fccb30875c92",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -543,15 +268,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1270,
-        "y": 800,
+        "x": 1150,
+        "y": 400,
         "wires": []
     },
     {
-        "id": "ed090639031737fa",
+        "id": "9d4bb989220e9692",
         "type": "function",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "FORMATEO SENSOR",
         "func": "// ========================================================\n// 1. Obtener sensores y valores\n// ========================================================\nlet sensores = msg.sensores || [];\nlet valores = msg.payload;\n\n// Validar sensores\nif (!Array.isArray(sensores) || sensores.length === 0) {\n    node.error(\"❌ sensores vacío o inválido.\", msg);\n    return null;\n}\n\n// ========================================================\n// 1.1 Fallback si Modbus falló o payload inválido\n// ========================================================\nconst expectedLen =\n    Number(msg?.info?.sensorCount) ||\n    Number(msg?.info?.totalSensores) || \n    sensores.length ||\n    Number(msg?.parts?.count) ||\n    0;\n\nconst modbusFailed = !!msg.error || (typeof valores === \"string\" && valores.trim() === \"\");\nconst payloadBad   = !Array.isArray(valores);\n\nif (modbusFailed || payloadBad) {\n    const len = expectedLen || sensores.length;\n\n    valores = new Array(len).fill(5000);   // ⬅️ FALLBACK DEFINITIVO\n    msg.info = msg.info || {};\n    msg.info.fallback = true;\n    msg.info.fallbackReason =\n        msg.error?.message || \"payload inválido / vacío\";\n}\n\n// ========================================================\n// 2. Ordenar sensores por IDModbus\n// ========================================================\nsensores.sort((a, b) => a.IDModbus - b.IDModbus);\n\n// ========================================================\n// 3. Offset base\n// ========================================================\nconst base = sensores[0].IDModbus;\n\n// helper: UInt16 → Int16\nfunction toInt16(u16) {\n    u16 = Number(u16) & 0xFFFF;\n    return (u16 << 16) >> 16;\n}\n\n// ========================================================\n// 4. Asociar valores a sensores\n// ========================================================\nlet resultados = [];\n\nfor (let sensor of sensores) {\n    let idx = sensor.IDModbus - base;\n\n    let rawU16 = (idx >= 0 && idx < valores.length)\n        ? valores[idx]\n        : 5000;                 // ⬅️ seguridad extra\n\n    let rawI16 = toInt16(rawU16);\n    \n    // SOLO marcar fuera de rango si NO es error modbus (500)\n    if (rawI16 !== 5000 && (rawI16 < -150 || rawI16 > 350)) {\n        rawI16 = 600;\n    }\n\n    resultados.push({\n        Ambiente: sensor.Ambiente,\n        Sensor: sensor.Sensor,\n        UnitId: sensor.UnitId,\n        IDModbus: sensor.IDModbus,\n        IDAMB: sensor.IDAMB,\n        IDSENSOR: sensor.IDSENSOR,\n        raw: rawI16,\n        value: rawI16 / 10      // 6000 → 600.0\n    });\n}\n\n// ========================================================\n// 5. Salida\n// ========================================================\nmsg.payload = resultados;\nmsg.info = msg.info || {};\nmsg.info.payloadLen = valores.length;\n\nreturn msg;\n",
         "outputs": 1,
@@ -560,20 +285,21 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 700,
+        "x": 640,
+        "y": 280,
         "wires": [
             [
-                "aaea08f6f1d3eafe",
-                "149493d5632b5ff1"
+                "792e20bec8b546e2",
+                "16a4872eca1ce01d"
             ]
         ]
     },
     {
-        "id": "69927a5534cf67ef",
+        "id": "8e5654e02ea90114",
         "type": "function",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "d": true,
+        "g": "4965fccb30875c92",
         "name": "Const Lineas",
         "func": "let sensores = msg.payload;   // aquí ya tienes [{... value: X }, ...]\n\nif (!Array.isArray(sensores)) {\n    return node.error(\"❌ msg.payload no es array de sensores.\");\n}\n\nlet inserts = sensores.map(s => {\n    return `(-1, dbo.Ambientes(${s.IDAMB}), dbo.Identificador(${s.IDAMB}, ${s.IDSENSOR}), ${s.value}, getdate())`;\n});\n\nmsg.payload = inserts;\nreturn msg;\n",
         "outputs": 1,
@@ -582,51 +308,53 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 800,
+        "x": 270,
+        "y": 400,
         "wires": [
             [
-                "883880135fa661b1"
+                "e69e7c1db36d954d"
             ]
         ]
     },
     {
-        "id": "31b6c8d4f004adc1",
+        "id": "3bc91ca97d537ea2",
         "type": "link in",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "d": true,
+        "g": "4965fccb30875c92",
         "name": "",
         "links": [
-            "aaea08f6f1d3eafe"
+            "792e20bec8b546e2"
         ],
-        "x": 265,
-        "y": 800,
+        "x": 145,
+        "y": 400,
         "wires": [
             [
-                "69927a5534cf67ef"
+                "8e5654e02ea90114"
             ]
         ]
     },
     {
-        "id": "aaea08f6f1d3eafe",
+        "id": "792e20bec8b546e2",
         "type": "link out",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "",
         "mode": "link",
         "links": [
-            "31b6c8d4f004adc1",
-            "1b50e6c34981933c"
+            "3bc91ca97d537ea2",
+            "5e9f030d4e87f17f"
         ],
-        "x": 855,
-        "y": 740,
+        "x": 835,
+        "y": 320,
         "wires": []
     },
     {
-        "id": "883880135fa661b1",
+        "id": "e69e7c1db36d954d",
         "type": "join",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "d": true,
+        "g": "4965fccb30875c92",
         "name": "",
         "mode": "auto",
         "build": "object",
@@ -635,7 +363,6 @@
         "key": "topic",
         "joiner": "\\n",
         "joinerType": "str",
-        "useparts": true,
         "accumulate": true,
         "timeout": "",
         "count": "",
@@ -644,19 +371,20 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 530,
-        "y": 800,
+        "x": 410,
+        "y": 400,
         "wires": [
             [
-                "2b2bcf0fcd9749be"
+                "26eb7221f0bb0a3f"
             ]
         ]
     },
     {
-        "id": "2b2bcf0fcd9749be",
+        "id": "26eb7221f0bb0a3f",
         "type": "function",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "d": true,
+        "g": "4965fccb30875c92",
         "name": "Crear Cabecera",
         "func": "if (!Array.isArray(msg.payload)) {\n    node.error(\"❌ El payload no es un array.\");\n    return msg;\n}\n\n// Unir los values en líneas separadas\nconst values = msg.payload.join(\",\\n\");\n\n// Construir el INSERT completo\nmsg.payload =\n    \"insert into OPERACIONES.MEDICIONESHIST\\n\" +\n    \"(IDPROCESO, IDTUNEL, IDTERMOMETRO, TEMPERATURA, FECHAHORA)\\n\" +\n    \"values\\n\" +\n    values + \";\";\n\nreturn msg;\n",
         "outputs": 1,
@@ -665,36 +393,37 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 700,
-        "y": 800,
+        "x": 580,
+        "y": 400,
         "wires": [
             [
-                "7e57c306a8a02520"
+                "60a85cedbd5bdfbf"
             ]
         ]
     },
     {
-        "id": "7e57c306a8a02520",
+        "id": "60a85cedbd5bdfbf",
         "type": "MSSQL",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "d": true,
+        "g": "4965fccb30875c92",
         "mssqlCN": "2b3a0580ed7eda92",
         "name": "",
         "query": "",
         "outField": "payload",
-        "x": 1060,
-        "y": 800,
+        "x": 940,
+        "y": 400,
         "wires": [
             [
-                "623e901ef84ee0ac"
+                "c2fabbcb6166421e"
             ]
         ]
     },
     {
-        "id": "149493d5632b5ff1",
+        "id": "16a4872eca1ce01d",
         "type": "debug",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -704,46 +433,289 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 890,
-        "y": 660,
+        "x": 870,
+        "y": 240,
         "wires": []
     },
     {
-        "id": "7f95220a2d127c71",
+        "id": "4271e668a0e5d943",
         "type": "comment",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "ESTRUCTURA TUNELES",
         "info": "\n=========================================================\nESTRUCTURA DE TÚNELES Y SENSORES\n=========================================================\n\n▶ Sensores de pulpa (pinchar)\n- Cantidad     : 12 sensores por túnel\n- IDSENSOR     : 1 .. 12\n- UnitId       : consecutivo global (ej. Tunel 1 = 1..12,\n                 Tunel 2 = 13..24, etc.)\n- IDModbus     : 256 (común para todos los sensores)\n\n▶ Sensores de ambiente\n- Por túnel    : 2 sensores\n- Nombres      :\n     • S.AMBIENTE 1  (Infe)\n     • S.AMBIENTE 2  (Super)\n- IDSENSOR     :\n     • 20 = S.AMBIENTE 1\n     • 21 = S.AMBIENTE 2\n- UnitId       :\n     • Tunel 1 → 121, 122\n     • Tunel 2 → 123, 124\n     • ...\n     • Tunel 10 → 139, 140\n- IDModbus     : 256 (común)\n\n▶ Escala de valores\n- Datos en décimas de °C\n  Ej: 253  → 25.3 °C\n\n▶ Códigos especiales de error (raw)\n- 500  → Error Modbus\n- 600  → Fuera de rango (-15 a 35 °C)\n",
-        "x": 1350,
-        "y": 520,
+        "x": 1330,
+        "y": 80,
         "wires": []
     },
     {
-        "id": "2772aa7465bab013",
+        "id": "02080b4e36dc5d06",
         "type": "function",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "CONSTRUCTOR MODBUS",
-        "func": "// ========================================================\n// 1. OBTENER SENSOR(ES) DESDE msg.payload\n// ========================================================\nlet sensores = msg.payload;\n\n// Si viene un solo objeto → lo convertimos en array\nif (!Array.isArray(sensores)) {\n    sensores = [sensores];\n}\n\n// Validar que realmente es un ARRAY con cosas\nif (!Array.isArray(sensores) || sensores.length === 0) {\n    return node.error(\"❌ msg.payload está vacío.\");\n}\n\n\n// ========================================================\n// 2. ORDENAR POR IDModbus\n// ========================================================\nsensores.sort((a, b) => a.IDModbus - b.IDModbus);\n\n\n// ========================================================\n// 3. VALIDAR UNIT ID\n// ========================================================\nconst unitID = sensores[0].UnitId;\n\nconst mixed = sensores.some(s => s.UnitId !== unitID);\nif (mixed) {\n    node.warn(\"⚠️ Subgrupo tiene UnitId mezclados. Se usará el primero.\");\n}\n\n\n// ========================================================\n// 4. CALCULAR START ADDRESS Y QUANTITY\n// ========================================================\nconst addrInicio = sensores[0].IDModbus;\nconst addrFinal  = sensores[sensores.length - 1].IDModbus;\n\nconst quantity = (addrFinal - addrInicio) + 1;\n\n\n// ========================================================\n// 5. PREPARAR PAYLOAD PARA modbus-flex-getter\n// ========================================================\nmsg.payload = {\n    fc: 3,\n    unitid: unitID,\n    address: addrInicio,\n    quantity: quantity\n};\n\n\n// ========================================================\n// 6. PASAR LA LISTA COMPLETA DEL SUBGRUPO\n// ========================================================\nmsg.sensores = sensores;\n\n\n// ========================================================\n// 7. INFO EXTRA\n// ========================================================\nmsg.info = msg.info || {};\nmsg.info.totalSensores = sensores.length;\nmsg.info.addressInicio = addrInicio;\nmsg.info.addressFin = addrFinal;\nmsg.info.quantity = quantity;\n\nreturn msg;\n",
+        "func": "// ========================================================\n// 1. OBTENER SENSOR(ES) DESDE msg.payload\n// ========================================================\nlet sensores = msg.payload;\n\n// Si viene un solo objeto → lo convertimos en array\nif (!Array.isArray(sensores)) {\n    sensores = [sensores];\n}\n\n// Validar que realmente es un ARRAY con datos\nif (!Array.isArray(sensores) || sensores.length === 0) {\n    node.error(\"❌ msg.payload está vacío.\");\n    return null;\n}\n\n\n// ========================================================\n// 2. NORMALIZAR CAMPOS NUMÉRICOS\n// ========================================================\nsensores = sensores.map(s => ({\n    ...s,\n    UnitId: Number(s.UnitId),\n    Fc: Number(s.Fc),\n    IDModbus: Number(s.IDModbus),\n    IDAMB: Number(s.IDAMB),\n    IDSENSOR: Number(s.IDSENSOR)\n}));\n\n\n// ========================================================\n// 3. VALIDAR QUE LOS DATOS PRINCIPALES EXISTAN\n// ========================================================\nconst sensoresInvalidos = sensores.filter(s =>\n    !s.IP ||\n    Number.isNaN(s.UnitId) ||\n    Number.isNaN(s.Fc) ||\n    Number.isNaN(s.IDModbus)\n);\n\nif (sensoresInvalidos.length > 0) {\n    node.error(\"❌ Hay sensores con IP, UnitId, Fc o IDModbus inválidos.\", sensoresInvalidos);\n    return null;\n}\n\n\n// ========================================================\n// 4. ORDENAR POR IDModbus\n// ========================================================\nsensores.sort((a, b) => a.IDModbus - b.IDModbus);\n\n\n// ========================================================\n// 5. VALIDAR IP / UNIT ID / FC\n// ========================================================\nconst ip = sensores[0].IP;\nconst unitID = sensores[0].UnitId;\nconst fc = sensores[0].Fc;\n\nconst mixed = sensores.some(s =>\n    s.IP !== ip ||\n    s.UnitId !== unitID ||\n    s.Fc !== fc\n);\n\nif (mixed) {\n    node.warn(\"⚠️ Subgrupo tiene IP, UnitId o Fc mezclados. Se usará el primero.\");\n}\n\n\n// ========================================================\n// 6. CALCULAR START ADDRESS Y QUANTITY\n// ========================================================\nconst addrInicio = sensores[0].IDModbus;\nconst addrFinal = sensores[sensores.length - 1].IDModbus;\n\nconst quantity = (addrFinal - addrInicio) + 1;\n\nif (quantity <= 0 || Number.isNaN(quantity)) {\n    node.error(\"❌ Quantity inválido calculado para consulta Modbus.\");\n    return null;\n}\n\n\n// ========================================================\n// 7. PREPARAR PAYLOAD PARA modbus-flex-getter\n// ========================================================\nmsg.payload = {\n    ip: ip,\n    fc: fc,\n    unitid: unitID,\n    address: addrInicio,\n    quantity: quantity\n};\n\n\n// ========================================================\n// 8. PASAR IP Y DATOS EXTRA\n// ========================================================\nmsg.ip = ip;\n\nmsg.sensores = sensores;\n\nmsg.info = msg.info || {};\nmsg.info.ambiente = sensores[0].Ambiente;\nmsg.info.ip = ip;\nmsg.info.unitid = unitID;\nmsg.info.fc = fc;\nmsg.info.totalSensores = sensores.length;\nmsg.info.addressInicio = addrInicio;\nmsg.info.addressFin = addrFinal;\nmsg.info.quantity = quantity;\n\n\n// ========================================================\n// 10. RETORNAR\n// ========================================================\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
-        "y": 600,
+        "x": 880,
+        "y": 160,
         "wires": [
             [
-                "3a4fd6d570b96dde"
+                "ec94247cea427629",
+                "59af107d3eb938c4"
             ]
         ]
     },
     {
-        "id": "4cdad7dafa3c3218",
+        "id": "5e9f030d4e87f17f",
+        "type": "link in",
+        "z": "d3e9c8731ce1cc4d",
+        "name": "link in 2",
+        "links": [
+            "792e20bec8b546e2"
+        ],
+        "x": 245,
+        "y": 500,
+        "wires": [
+            [
+                "dd034ec2c0422470"
+            ]
+        ]
+    },
+    {
+        "id": "dd034ec2c0422470",
+        "type": "function",
+        "z": "d3e9c8731ce1cc4d",
+        "name": "Const Lineas",
+        "func": "let sensores = msg.payload;\n\n// Validar que sea array\nif (!Array.isArray(sensores)) {\n    node.error(\"❌ msg.payload no es array de sensores.\");\n    return null;\n}\n\n// Crear un msg por cada sensor\nlet mensajes = sensores.map(s => {\n    return {\n            Ambiente: s.Ambiente,\n            Sensor: s.Sensor,\n            value: s.value\n        };\n});\n\n// Enviar 12 mensajes separados\nmsg.payload = mensajes;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 500,
+        "wires": [
+            [
+                "7898b522117a5771",
+                "68f373250bed4d7e"
+            ]
+        ]
+    },
+    {
+        "id": "f0f748315c1bb54b",
+        "type": "debug",
+        "z": "d3e9c8731ce1cc4d",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "7898b522117a5771",
+        "type": "function",
+        "z": "d3e9c8731ce1cc4d",
+        "name": "Guardar Temporal",
+        "func": "//const dir = msg.info.ambiente\nconst dir = msg.info.ambiente.replace(/\\s+/g, \"_\");\n\nglobal.set(dir, {\n    time: Date.now(),\n    data: msg.payload\n});\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 500,
+        "wires": [
+            [
+                "f0f748315c1bb54b"
+            ]
+        ]
+    },
+    {
+        "id": "a0a602a83844add0",
+        "type": "switch",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
+        "name": "",
+        "property": "payload.ip",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "192.168.0.50",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "192.168.0.51",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "192.168.0.52",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "192.168.0.53",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 190,
+        "y": 280,
+        "wires": [
+            [
+                "be8ac1b4c8b1fc34"
+            ],
+            [
+                "a06af6e51a338d66"
+            ],
+            [
+                "30b94b5058ce1a4f"
+            ],
+            [
+                "82eb56a31e39c05f"
+            ]
+        ]
+    },
+    {
+        "id": "59af107d3eb938c4",
+        "type": "debug",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "a06af6e51a338d66",
+        "type": "modbus-flex-getter",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "server": "1d82f2d1f59b81da",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "delayOnStart": false,
+        "enableDeformedMessages": true,
+        "startDelayTime": "",
+        "x": 390,
+        "y": 260,
+        "wires": [
+            [
+                "9d4bb989220e9692"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "30b94b5058ce1a4f",
+        "type": "modbus-flex-getter",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "server": "b4327a8ac2659599",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "delayOnStart": false,
+        "enableDeformedMessages": true,
+        "startDelayTime": "",
+        "x": 390,
+        "y": 300,
+        "wires": [
+            [
+                "9d4bb989220e9692"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "82eb56a31e39c05f",
+        "type": "modbus-flex-getter",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "server": "7bb30b8a1a370a7b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "delayOnStart": false,
+        "enableDeformedMessages": true,
+        "startDelayTime": "",
+        "x": 390,
+        "y": 340,
+        "wires": [
+            [
+                "9d4bb989220e9692"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "68f373250bed4d7e",
+        "type": "debug",
+        "z": "d3e9c8731ce1cc4d",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "69fabfe02f929733",
         "type": "delay",
-        "z": "6e87ae00ebb3fb14",
-        "g": "143356aa89eb5ba9",
+        "z": "d3e9c8731ce1cc4d",
+        "g": "4965fccb30875c92",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -757,140 +729,150 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 660,
-        "y": 600,
+        "x": 640,
+        "y": 160,
         "wires": [
             [
-                "82a1d1ef21eac098"
+                "02080b4e36dc5d06"
             ]
         ]
     },
     {
-        "id": "1b50e6c34981933c",
-        "type": "link in",
-        "z": "6e87ae00ebb3fb14",
-        "name": "link in 2",
-        "links": [
-            "aaea08f6f1d3eafe"
+        "id": "eca3f4c31fabc15a",
+        "type": "tab",
+        "label": "API",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5619fb4c3f81e34f",
+        "type": "group",
+        "z": "eca3f4c31fabc15a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1f0cdad97c613992",
+            "b345d204c77eea3b",
+            "c6c4a17d0be44e85",
+            "a42d99fc6dec86a9",
+            "2762445977a8e40b",
+            "93e72fec80a71c16",
+            "f5b5093705e6d2ae",
+            "43dbebd4a7ce3776",
+            "95cae3790cc5d7ea",
+            "0d047e2a6e682fb7",
+            "94fa1c4aa72254c1",
+            "92fb4fb646f2912c",
+            "8a39b061eee837bb",
+            "41df366e5e9d78a8",
+            "c4763661e6ec3104",
+            "6ce61a6044140747",
+            "756cb7f5617eda21",
+            "67c11cf69434216f",
+            "997a1dc13124b15e",
+            "d6567c22df72bbfb",
+            "54e23a0b05d5bcb8",
+            "6835caec80790227",
+            "0215fa3247fe2315",
+            "56bdea018f070d38",
+            "5369241a2e0595f6",
+            "f1791a5505aba0d2",
+            "a3f1e962de94df58",
+            "74638bc93011622f",
+            "7c5a8fde7f47f5f0",
+            "743a9318e44df484",
+            "5a45cca0ffd44bd0"
         ],
-        "x": 265,
-        "y": 940,
-        "wires": [
-            [
-                "38adac5b318466b7"
-            ]
-        ]
+        "x": 74,
+        "y": 259,
+        "w": 1272,
+        "h": 382
     },
     {
-        "id": "38adac5b318466b7",
-        "type": "function",
-        "z": "6e87ae00ebb3fb14",
-        "name": "Const Lineas",
-        "func": "let sensores = msg.payload;   // aquí ya tienes [{... value: X }, ...]\n\nif (!Array.isArray(sensores)) {\n    return node.error(\"❌ msg.payload no es array de sensores.\");\n}\n\nlet inserts = sensores.map(s => {\n    return {\n        Ambiente: s.Ambiente,\n        Sensor: s.Sensor,\n        value: s.value\n    }\n});\n\n\n\nmsg.payload = inserts[0];\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 390,
-        "y": 940,
-        "wires": [
-            [
-                "926e67f6d82e9a82"
-            ]
-        ]
+        "id": "894ce206428c4a3b",
+        "type": "group",
+        "z": "eca3f4c31fabc15a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bbd10afccecc7f65",
+            "92c035a021c6a41c",
+            "de7e97b955ba125e",
+            "3c0b8f4faa2bf947",
+            "c3bf4b9596899ccd"
+        ],
+        "x": 74,
+        "y": 119,
+        "w": 1112,
+        "h": 122
     },
     {
-        "id": "3ae634b5dd5d86db",
-        "type": "debug",
-        "z": "6e87ae00ebb3fb14",
-        "name": "debug 1",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 920,
-        "y": 940,
-        "wires": []
+        "id": "952bcb45e03936fa",
+        "type": "group",
+        "z": "eca3f4c31fabc15a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e8ba9cf40c01826a",
+            "e9259968edece7c3",
+            "692cb551514af760",
+            "6ba71fbe56af46f2",
+            "987b8dd6e9edc4a4",
+            "74159d61972541d5",
+            "16525f770195d4b7",
+            "9de3063dba31b8ee",
+            "1ccbeb4f7a1502a2"
+        ],
+        "x": 74,
+        "y": 659,
+        "w": 1272,
+        "h": 202
     },
     {
-        "id": "926e67f6d82e9a82",
-        "type": "join",
-        "z": "6e87ae00ebb3fb14",
-        "name": "",
-        "mode": "auto",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": true,
-        "accumulate": true,
-        "timeout": "",
-        "count": "",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 550,
-        "y": 940,
-        "wires": [
-            [
-                "52e2e8f8dc3cdaf4"
-            ]
-        ]
-    },
-    {
-        "id": "52e2e8f8dc3cdaf4",
-        "type": "function",
-        "z": "6e87ae00ebb3fb14",
-        "name": "Guardar Temporal",
-        "func": "//const dir = msg.info.ambiente\nconst dir = msg.info.ambiente.replace(/\\s+/g, \"_\");\n\nglobal.set(dir, {\n    time: Date.now(),\n    data: msg.payload\n});\n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 730,
-        "y": 940,
-        "wires": [
-            [
-                "3ae634b5dd5d86db"
-            ]
-        ]
-    },
-    {
-        "id": "1a5cd17da6da572c",
+        "id": "bbd10afccecc7f65",
         "type": "http in",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "efec56f499f1941b",
+        "z": "eca3f4c31fabc15a",
+        "g": "894ce206428c4a3b",
         "name": "",
         "url": "/structure",
         "method": "get",
         "upload": false,
-        "skipBodyParsing": false,
         "swaggerDoc": "",
         "x": 170,
         "y": 160,
         "wires": [
             [
-                "7b9519d02553fa73"
+                "92c035a021c6a41c"
             ]
         ]
     },
     {
-        "id": "7b9519d02553fa73",
+        "id": "92c035a021c6a41c",
         "type": "function",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "efec56f499f1941b",
+        "z": "eca3f4c31fabc15a",
+        "g": "894ce206428c4a3b",
         "name": "EstructuraSensores",
         "func": "\nconst modbus32 = global.get(\"modbus32.compact\");\nif (!modbus32) {\n    return node.error(\"⚠️ No hay modbus32 en memoria global.\");\n}\n\nmsg.payload = modbus32;\nreturn msg;\n",
         "outputs": 1,
@@ -903,16 +885,16 @@
         "y": 160,
         "wires": [
             [
-                "cfd157054bd1bc6b",
-                "8ade454f53802ee4"
+                "de7e97b955ba125e",
+                "3c0b8f4faa2bf947"
             ]
         ]
     },
     {
-        "id": "cfd157054bd1bc6b",
+        "id": "de7e97b955ba125e",
         "type": "debug",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "efec56f499f1941b",
+        "z": "eca3f4c31fabc15a",
+        "g": "894ce206428c4a3b",
         "name": "debug 2",
         "active": true,
         "tosidebar": true,
@@ -926,10 +908,10 @@
         "wires": []
     },
     {
-        "id": "8ade454f53802ee4",
+        "id": "3c0b8f4faa2bf947",
         "type": "http response",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "efec56f499f1941b",
+        "z": "eca3f4c31fabc15a",
+        "g": "894ce206428c4a3b",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -938,29 +920,28 @@
         "wires": []
     },
     {
-        "id": "f56bfa6903c7ce5e",
+        "id": "1f0cdad97c613992",
         "type": "http in",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "",
         "url": "/values",
         "method": "get",
         "upload": false,
-        "skipBodyParsing": false,
         "swaggerDoc": "",
         "x": 170,
         "y": 340,
         "wires": [
             [
-                "2a1e2ad8b37efc85"
+                "b345d204c77eea3b"
             ]
         ]
     },
     {
-        "id": "2a1e2ad8b37efc85",
+        "id": "b345d204c77eea3b",
         "type": "function",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "get Memoria",
         "func": "// ==========================================\n// LEER \"ambiente\" DESDE msg.payload\n// ==========================================\nconst p = msg.payload;\n\n// Soporta: \"Tunel 1\" | {ambiente:\"Tunel 1\"} | {params:{ambiente:\"Tunel 1\"}}\nlet ambiente = p.ambiente;\n\nif (!ambiente) {\n    node.error(\"❌ No llegó 'ambiente' en msg.payload\", msg);\n    return null;\n}\n\nambiente = ambiente.replace(/\\s+/g, \"_\");\n\nconst data = global.get(ambiente)\n\n// ==========================================\n// SALIDA MINIMA\n// ==========================================\nmsg.payload = data.data;\n\nreturn msg;\n",
         "outputs": 1,
@@ -969,38 +950,40 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
+        "x": 410,
         "y": 340,
         "wires": [
             [
-                "6fb4e8c9e0a83a33"
+                "56bdea018f070d38",
+                "5a45cca0ffd44bd0"
             ]
         ]
     },
     {
-        "id": "d8eb33215df27f86",
+        "id": "c6c4a17d0be44e85",
         "type": "http in",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "d": true,
+        "g": "5619fb4c3f81e34f",
         "name": "",
         "url": "/offsets",
         "method": "get",
         "upload": false,
-        "skipBodyParsing": false,
         "swaggerDoc": "",
         "x": 170,
         "y": 440,
         "wires": [
             [
-                "aa4f504376ec36d4"
+                "a42d99fc6dec86a9"
             ]
         ]
     },
     {
-        "id": "aa4f504376ec36d4",
+        "id": "a42d99fc6dec86a9",
         "type": "function",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "d": true,
+        "g": "5619fb4c3f81e34f",
         "name": "get ModBus Estructura",
         "func": "// ==========================================\n// LEER \"ambiente\" DESDE msg.payload\n// ==========================================\nconst p = msg.payload;\n\n// Soporta: \"Tunel 1\" | {ambiente:\"Tunel 1\"} | {params:{ambiente:\"Tunel 1\"}}\nconst ambiente = p.ambiente;\n\nif (!ambiente) {\n    node.error(\"❌ No llegó 'ambiente' en msg.payload\", msg);\n    return null;\n}\n\n\nconst modbus32 = global.get(\"modbus32.compact\");\nif (!modbus32 || typeof modbus32 !== \"object\") {\n    node.error(\"❌ global.modbus32 no existe o es inválido\", msg);\n    return null;\n}\n\n// ==========================================\n// OBTENER SENSORES DEL AMBIENTE\n// ==========================================\nconst data = modbus32[ambiente];\nif (!data) {\n    node.warn(`⚠️ Ambiente no encontrado: ${ambiente}`);\n    msg.payload = { ambiente, sensores: [] };\n    return msg;\n}\n\n// ==========================================\n// SALIDA MINIMA\n// ==========================================\nmsg.payload = data[0];\n\nreturn msg;\n",
         "outputs": 1,
@@ -1013,17 +996,17 @@
         "y": 440,
         "wires": [
             [
-                "07297e7785e8d68b"
+                "93e72fec80a71c16"
             ]
         ]
     },
     {
-        "id": "e7e16f6750fda418",
+        "id": "2762445977a8e40b",
         "type": "debug",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "debug 4",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1036,10 +1019,11 @@
         "wires": []
     },
     {
-        "id": "07297e7785e8d68b",
+        "id": "93e72fec80a71c16",
         "type": "split",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "d": true,
+        "g": "5619fb4c3f81e34f",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -1051,15 +1035,16 @@
         "y": 440,
         "wires": [
             [
-                "1327af96bf5f30ed"
+                "f5b5093705e6d2ae"
             ]
         ]
     },
     {
-        "id": "1327af96bf5f30ed",
+        "id": "f5b5093705e6d2ae",
         "type": "function",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "d": true,
+        "g": "5619fb4c3f81e34f",
         "name": "CONSTRUCTOR MODBUS",
         "func": "// ========================================================\n// 1. OBTENER SENSOR(ES) DESDE msg.payload\n// ========================================================\nlet sensores = msg.payload;\n\n// Si viene un solo objeto → lo convertimos en array\nif (!Array.isArray(sensores)) {\n    sensores = [sensores];\n}\n\n// Validar que realmente es un ARRAY con cosas\nif (!Array.isArray(sensores) || sensores.length === 0) {\n    return node.error(\"❌ msg.payload está vacío.\");\n}\n\n\n// ========================================================\n// 2. ORDENAR POR IDModbus\n// ========================================================\nsensores.sort((a, b) => a.IDModbus - b.IDModbus);\n\n\n// ========================================================\n// 3. VALIDAR UNIT ID\n// ========================================================\nconst unitID = sensores[0].UnitId;\n\nconst mixed = sensores.some(s => s.UnitId !== unitID);\nif (mixed) {\n    node.warn(\"⚠️ Subgrupo tiene UnitId mezclados. Se usará el primero.\");\n}\n\n\n// ========================================================\n// 4. CALCULAR START ADDRESS Y QUANTITY\n// ========================================================\nconst addrInicio = sensores[0].IDModbus;\nconst addrFinal  = sensores[sensores.length - 1].IDModbus;\n\nconst quantity = (addrFinal - addrInicio) + 1;\n\n\n// ========================================================\n// 5. PREPARAR PAYLOAD PARA modbus-flex-getter\n// ========================================================\nmsg.payload = {\n    fc: 3,\n    unitid: unitID,\n    address: 781,\n    quantity: quantity\n};\n\n\n// ========================================================\n// 6. PASAR LA LISTA COMPLETA DEL SUBGRUPO\n// ========================================================\nmsg.sensores = sensores;\n\n\n// ========================================================\n// 7. INFO EXTRA\n// ========================================================\nmsg.info = msg.info || {};\nmsg.info.totalSensores = sensores.length;\nmsg.info.addressInicio = addrInicio;\nmsg.info.addressFin = addrFinal;\nmsg.info.quantity = quantity;\n\nreturn msg;\n",
         "outputs": 1,
@@ -1072,43 +1057,15 @@
         "y": 440,
         "wires": [
             [
-                "f6993ed8c2f3cdd4"
+                "94fa1c4aa72254c1"
             ]
         ]
     },
     {
-        "id": "91492199b5d659af",
-        "type": "modbus-flex-getter",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
-        "name": "",
-        "showStatusActivities": true,
-        "showErrors": true,
-        "showWarnings": true,
-        "logIOActivities": false,
-        "server": "e1a36263d549fba9",
-        "useIOFile": false,
-        "ioFile": "",
-        "useIOForPayload": false,
-        "emptyMsgOnFail": true,
-        "keepMsgProperties": true,
-        "delayOnStart": true,
-        "enableDeformedMessages": true,
-        "startDelayTime": "",
-        "x": 470,
-        "y": 540,
-        "wires": [
-            [
-                "97564762380fee36"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "97564762380fee36",
+        "id": "43dbebd4a7ce3776",
         "type": "function",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "FORMATEO SENSOR",
         "func": "// ========================================================\n// 1. Obtener sensores y valores\n// ========================================================\nlet sensores = msg.sensores || [];\nlet valores = msg.payload;\n\n// Validaciones reales\nif (!Array.isArray(sensores) || sensores.length === 0) {\n    node.error(\"ERROR: msg.sensores vacío o inválido\", msg);\n    msg.payload = \"ERROR: msg.sensores vacío o inválido\";\n    return [null, msg]; // salida 2 = error\n}\n\nif (!Array.isArray(valores) || valores.length === 0) {\n    node.error(\"ERROR: msg.payload (valores) vacío o inválido\", msg);\n    msg.payload = \"ERROR: msg.payload (valores) vacío o inválido\";\n    return [null, msg]; // salida 2 = error\n}\n\n// ========================================================\n// 2. Ordenar sensores por IDModbus\n// ========================================================\nsensores = [...sensores].sort((a, b) => (a.IDModbus ?? 0) - (b.IDModbus ?? 0));\n\n// ========================================================\n// 3. Offset base\n// ========================================================\nconst base = sensores[0].IDModbus;\n\n// helper: UInt16 → Int16\nfunction toInt16(u16) {\n    u16 = Number(u16) & 0xFFFF;\n    return (u16 << 16) >> 16;\n}\n\n// ========================================================\n// 4. Asociar valores a sensores\n// ========================================================\nlet resultados = [];\n\nfor (let sensor of sensores) {\n    // Validar que tenga IDModbus\n    if (sensor.IDModbus == null) continue;\n\n    let idx = sensor.IDModbus - base;\n\n    let rawU16 = (idx >= 0 && idx < valores.length)\n        ? valores[idx]\n        : 5000; // fallback\n\n    let rawI16 = toInt16(rawU16);\n\n    resultados.push({\n        Ambiente: sensor.Ambiente,\n        Sensor: sensor.Sensor,\n        value: rawI16 / 10\n    });\n}\n\n// Si no salió nada (por sensores sin IDModbus)\nif (resultados.length === 0) {\n    node.error(\"ERROR: no se generaron resultados (sensores sin IDModbus?)\", msg);\n    msg.payload = \"ERROR: no se generaron resultados\";\n    return [null, msg];\n}\n\n// ========================================================\n// 5. Salida\n// ========================================================\nmsg.payload = resultados[0];      // o resultados (si quieres todo)\nmsg.info = msg.info || {};\nmsg.info.payloadLen = valores.length;\n\n// ✅ outOk NO existe. Devuelve el msg OK en la salida 1\nreturn [msg, null];\n",
         "outputs": 2,
@@ -1121,18 +1078,19 @@
         "y": 540,
         "wires": [
             [
-                "cfcbc64c237218e0"
+                "95cae3790cc5d7ea",
+                "743a9318e44df484"
             ],
             [
-                "ef90a2620f0d1e8f"
+                "0215fa3247fe2315"
             ]
         ]
     },
     {
-        "id": "cfcbc64c237218e0",
+        "id": "95cae3790cc5d7ea",
         "type": "join",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "",
         "mode": "auto",
         "build": "object",
@@ -1141,7 +1099,6 @@
         "key": "topic",
         "joiner": "\\n",
         "joinerType": "str",
-        "useparts": true,
         "accumulate": true,
         "timeout": "",
         "count": "",
@@ -1154,48 +1111,50 @@
         "y": 540,
         "wires": [
             [
-                "e7e16f6750fda418",
-                "57c20208a645c385"
+                "2762445977a8e40b",
+                "6835caec80790227"
             ]
         ]
     },
     {
-        "id": "fdcdb8104e36bb26",
+        "id": "0d047e2a6e682fb7",
         "type": "link in",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "link in 3",
         "links": [
-            "f6993ed8c2f3cdd4",
-            "2f96b414d97ce72f"
+            "94fa1c4aa72254c1",
+            "d6567c22df72bbfb",
+            "4b285298914ea53d"
         ],
         "x": 115,
         "y": 540,
         "wires": [
             [
-                "91492199b5d659af"
+                "f1791a5505aba0d2"
             ]
         ]
     },
     {
-        "id": "f6993ed8c2f3cdd4",
+        "id": "94fa1c4aa72254c1",
         "type": "link out",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "d": true,
+        "g": "5619fb4c3f81e34f",
         "name": "link out 3",
         "mode": "link",
         "links": [
-            "fdcdb8104e36bb26"
+            "0d047e2a6e682fb7"
         ],
         "x": 955,
         "y": 440,
         "wires": []
     },
     {
-        "id": "ebde049f44f6b595",
+        "id": "92fb4fb646f2912c",
         "type": "http response",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -1204,85 +1163,61 @@
         "wires": []
     },
     {
-        "id": "61ed3555e6889989",
+        "id": "e8ba9cf40c01826a",
         "type": "http in",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "c83fca59a72831f4",
+        "z": "eca3f4c31fabc15a",
+        "g": "952bcb45e03936fa",
         "name": "",
         "url": "/offset",
         "method": "post",
         "upload": false,
-        "skipBodyParsing": false,
         "swaggerDoc": "",
         "x": 170,
-        "y": 700,
+        "y": 720,
         "wires": [
             [
-                "92861aa0532a524c",
-                "6d1f8bc6f85efe02"
+                "e9259968edece7c3"
             ]
         ]
     },
     {
-        "id": "92861aa0532a524c",
+        "id": "e9259968edece7c3",
         "type": "function",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "c83fca59a72831f4",
+        "z": "eca3f4c31fabc15a",
+        "g": "952bcb45e03936fa",
         "name": "",
-        "func": "// ========================================================\n// Preparar escritura Modbus desde objeto de sensor\n// ========================================================\n\nconst sensor = msg.payload;\n\n// Validación mínima\nif (!sensor || sensor.error === true) {\n    node.warn(\"⚠️ Sensor inválido o con error, no se escribe\");\n    return null;   // no envía nada al modbus-flex-write\n}\n\nconst unitId = sensor[\"UnitID Calibrador\"] ?? sensor.UnitId;\nconst idModbus = sensor[\"IDModbus Calibrador\"] ?? sensor.IDModbus;\n\nif (unitId == null || idModbus == null) {\n    node.warn(\"⚠️ Faltan UnitID/IDModbus del calibrador\");\n    return null;\n}\n\n// Escalado: 0.2 → 2\nlet val = Math.round(Number(sensor.value) * 10);\n\n// Convertir a uint16 si es negativo\nif (val < 0) {\n    val = 65536 + val;\n}\n\n// Construir trama Modbus FC16\nmsg.payload = {\n    fc: 16,\n    unitid: Number(unitId),\n    address: Number(idModbus),\n    quantity: 1,\n    value: [val]\n};\n\nreturn msg;\n",
+        "func": "// ========================================================\n// Preparar escritura Modbus desde objeto de sensor\n// ========================================================\n\nconst sensor = msg.payload;\n\n// Validación mínima\nif (!sensor || sensor.error === true) {\n    node.warn(\"⚠️ Sensor inválido o con error, no se escribe\");\n    return null;   // no envía nada al modbus-flex-write\n}\n\n// Escalado: 0.2 → 2\nlet val = Math.round(Number(sensor.value) * 10);\n\n// Convertir a uint16 si es negativo\nif (val < 0) {\n    val = 65536 + val;\n}\n\nconst ip = sensor.IP;\nconst unitid = Number(sensor.UnitID);\nconst address = Number(sensor.id);\nconst fc = Number(sensor.fc);\n\n// Construir trama Modbus FC16\nmsg.payload = {\n    ip: ip,\n    fc: 16,\n    unitid: unitid,\n    address: address,\n    quantity: 1,\n    value: [val]\n};\n\nreturn msg;\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 380,
-        "y": 700,
+        "y": 720,
         "wires": [
             [
-                "6e65bf1783a8b73d"
+                "987b8dd6e9edc4a4"
             ]
         ]
     },
     {
-        "id": "eda0494a739ab460",
+        "id": "692cb551514af760",
         "type": "http response",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "c83fca59a72831f4",
+        "z": "eca3f4c31fabc15a",
+        "g": "952bcb45e03936fa",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 930,
-        "y": 700,
+        "x": 1270,
+        "y": 720,
         "wires": []
     },
     {
-        "id": "6e65bf1783a8b73d",
-        "type": "modbus-flex-write",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "c83fca59a72831f4",
-        "name": "",
-        "showStatusActivities": true,
-        "showErrors": true,
-        "showWarnings": true,
-        "server": "e1a36263d549fba9",
-        "emptyMsgOnFail": true,
-        "keepMsgProperties": true,
-        "delayOnStart": false,
-        "startDelayTime": "",
-        "x": 590,
-        "y": 700,
-        "wires": [
-            [
-                "1bb4d7624d300521"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "1bb4d7624d300521",
+        "id": "6ba71fbe56af46f2",
         "type": "function",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "c83fca59a72831f4",
+        "z": "eca3f4c31fabc15a",
+        "g": "952bcb45e03936fa",
         "name": "",
         "func": "// ========================================================\n// Interpretar resultado de escritura Modbus\n// ========================================================\n\n// Caso 1: error explícito\nif (msg.error || msg.modbusError || typeof msg.payload === \"string\") {\n\n    node.warn(\"❌ Error en escritura Modbus\");\n\n    msg.payload = {\n        ok: false,\n        message: \"Error al escribir en Modbus\",\n        detail: msg.error || msg.payload || \"Error desconocido\"\n    };\n\n    return msg;\n}\n\n// Caso 2: ACK correcto de FC16\nif (\n    msg.payload &&\n    msg.payload.fc === 16 &&\n    msg.payload.address !== undefined\n) {\n    msg.payload = {\n        ok: true,\n        message: \"Escritura Modbus exitosa\",\n        unitid: msg.payload.unitid,\n        address: msg.payload.address,\n        value: msg.payload.value ? msg.payload.value[0] : null\n    };\n\n    return msg;\n}\n\n// Caso inesperado\nmsg.payload = {\n    ok: false,\n    message: \"Respuesta Modbus no reconocida\",\n    raw: msg.payload\n};\n\nreturn msg;\n",
         "outputs": 1,
@@ -1290,36 +1225,19 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
-        "y": 700,
+        "x": 1120,
+        "y": 720,
         "wires": [
             [
-                "eda0494a739ab460"
+                "692cb551514af760"
             ]
         ]
     },
     {
-        "id": "6d1f8bc6f85efe02",
-        "type": "debug",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "c83fca59a72831f4",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 400,
-        "y": 760,
-        "wires": []
-    },
-    {
-        "id": "bfafbfd44fa9b20d",
+        "id": "8a39b061eee837bb",
         "type": "http response",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "",
         "statusCode": "400",
         "headers": {},
@@ -1328,29 +1246,28 @@
         "wires": []
     },
     {
-        "id": "b42969f75fdd5a98",
+        "id": "41df366e5e9d78a8",
         "type": "http in",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "",
         "url": "/value",
         "method": "get",
         "upload": false,
-        "skipBodyParsing": false,
         "swaggerDoc": "",
         "x": 160,
         "y": 300,
         "wires": [
             [
-                "ac6ba7e1658b9f4b"
+                "c4763661e6ec3104"
             ]
         ]
     },
     {
-        "id": "ac6ba7e1658b9f4b",
+        "id": "c4763661e6ec3104",
         "type": "function",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "get ModBus Estructura",
         "func": "// ==========================================\n// LEER \"ambiente\" DESDE msg.payload\n// ==========================================\nconst p = msg.payload;\n\n// Soporta: \"Tunel 1\" | {ambiente:\"Tunel 1\"} | {params:{ambiente:\"Tunel 1\"}}\nconst ambiente = p.ambiente;\nconst sensorBuscado = p.sensor;\n\nif (!ambiente) {\n    node.error(\"❌ No llegó 'ambiente' en msg.payload\", msg);\n    return null;\n}\n\nif (!sensorBuscado) {\n    node.error(\"❌ No llegó 'sensor' en msg.payload\", msg);\n    return null;\n}\n\n\nconst modbus32 = global.get(\"modbus32.compact\");\nif (!modbus32 || typeof modbus32 !== \"object\") {\n    node.error(\"❌ global.modbus32 no existe o es inválido\", msg);\n    return null;\n}\n\n// ==========================================\n// OBTENER SENSORES DEL AMBIENTE\n// ==========================================\nconst data = modbus32[ambiente];\nif (!data) {\n    node.warn(`⚠️ Ambiente no encontrado: ${ambiente}`);\n    msg.payload = { ambiente, sensores: [] };\n    return msg;\n}\n\nconst sNorm = String(sensorBuscado).trim().toLowerCase();\n\nconst found = data[0].find(x =>\n    String(x.Sensor || \"\").trim().toLowerCase() === sNorm\n);\n\n// ==========================================\n// SALIDA MINIMA\n// ==========================================\nmsg.payload = [found];\n\nreturn msg;\n",
         "outputs": 1,
@@ -1366,29 +1283,28 @@
         ]
     },
     {
-        "id": "e34e277dfddd07a4",
+        "id": "6ce61a6044140747",
         "type": "http in",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "",
         "url": "/offset",
         "method": "get",
         "upload": false,
-        "skipBodyParsing": false,
         "swaggerDoc": "",
         "x": 160,
         "y": 400,
         "wires": [
             [
-                "ce10f2719720b85e"
+                "756cb7f5617eda21"
             ]
         ]
     },
     {
-        "id": "ce10f2719720b85e",
+        "id": "756cb7f5617eda21",
         "type": "function",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "get ModBus Estructura",
         "func": "// ==========================================\n// LEER \"ambiente\" DESDE msg.payload\n// ==========================================\nconst p = msg.payload;\n\n// Soporta: \"Tunel 1\" | {ambiente:\"Tunel 1\"} | {params:{ambiente:\"Tunel 1\"}}\nconst ambiente = p.ambiente;\nconst sensorBuscado = p.sensor;\n\nif (!ambiente) {\n    node.error(\"❌ No llegó 'ambiente' en msg.payload\", msg);\n    return null;\n}\n\nif (!sensorBuscado) {\n    node.error(\"❌ No llegó 'sensor' en msg.payload\", msg);\n    return null;\n}\n\n\nconst modbus32 = global.get(\"modbus32.compact\");\nif (!modbus32 || typeof modbus32 !== \"object\") {\n    node.error(\"❌ global.modbus32 no existe o es inválido\", msg);\n    return null;\n}\n\n// ==========================================\n// OBTENER SENSORES DEL AMBIENTE\n// ==========================================\nconst data = modbus32[ambiente];\nif (!data) {\n    node.warn(`⚠️ Ambiente no encontrado: ${ambiente}`);\n    msg.payload = { ambiente, sensores: [] };\n    return msg;\n}\n\nconst sNorm = String(sensorBuscado).trim().toLowerCase();\n\nconst found = data[0].find(x =>\n    String(x.Sensor || \"\").trim().toLowerCase() === sNorm\n);\n\n// ==========================================\n// SALIDA MINIMA\n// ==========================================\nmsg.payload = [found];\n\nreturn msg;\n",
         "outputs": 1,
@@ -1401,15 +1317,15 @@
         "y": 400,
         "wires": [
             [
-                "2cef278583b7981d"
+                "67c11cf69434216f"
             ]
         ]
     },
     {
-        "id": "2cef278583b7981d",
+        "id": "67c11cf69434216f",
         "type": "split",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -1421,17 +1337,17 @@
         "y": 400,
         "wires": [
             [
-                "838a7a4e6b0e6bef"
+                "997a1dc13124b15e"
             ]
         ]
     },
     {
-        "id": "838a7a4e6b0e6bef",
+        "id": "997a1dc13124b15e",
         "type": "function",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "CONSTRUCTOR MODBUS",
-        "func": "// ========================================================\n// 1. OBTENER SENSOR(ES) DESDE msg.payload\n// ========================================================\nlet sensores = msg.payload;\n\n// Si viene un solo objeto → lo convertimos en array\nif (!Array.isArray(sensores)) {\n    sensores = [sensores];\n}\n\n// Validar que realmente es un ARRAY con cosas\nif (!Array.isArray(sensores) || sensores.length === 0) {\n    return node.error(\"❌ msg.payload está vacío.\");\n}\n\n\n// ========================================================\n// 2. ORDENAR POR IDModbus\n// ========================================================\nsensores.sort((a, b) => a.IDModbus - b.IDModbus);\n\n\n// ========================================================\n// 3. VALIDAR UNIT ID\n// ========================================================\nconst unitID = sensores[0].UnitId;\n\nconst mixed = sensores.some(s => s.UnitId !== unitID);\nif (mixed) {\n    node.warn(\"⚠️ Subgrupo tiene UnitId mezclados. Se usará el primero.\");\n}\n\n\n// ========================================================\n// 4. CALCULAR START ADDRESS Y QUANTITY\n// ========================================================\nconst addrInicio = sensores[0].IDModbus;\nconst addrFinal  = sensores[sensores.length - 1].IDModbus;\n\nconst quantity = (addrFinal - addrInicio) + 1;\n\n\n// ========================================================\n// 5. PREPARAR PAYLOAD PARA modbus-flex-getter\n// ========================================================\nmsg.payload = {\n    fc: 3,\n    unitid: unitID,\n    address: 781,\n    quantity: quantity\n};\n\n\n// ========================================================\n// 6. PASAR LA LISTA COMPLETA DEL SUBGRUPO\n// ========================================================\nmsg.sensores = sensores;\n\n\n// ========================================================\n// 7. INFO EXTRA\n// ========================================================\nmsg.info = msg.info || {};\nmsg.info.totalSensores = sensores.length;\nmsg.info.addressInicio = addrInicio;\nmsg.info.addressFin = addrFinal;\nmsg.info.quantity = quantity;\n\nreturn msg;\n",
+        "func": "// ========================================================\n// CONSTRUCTOR CONSULTA MODBUS - CALIBRADOR\n// ========================================================\n\n\n// ========================================================\n// 1. OBTENER SENSOR(ES) DESDE msg.payload\n// ========================================================\nlet sensores = msg.payload;\n\n// Si viene un solo objeto → lo convertimos en array\nif (!Array.isArray(sensores)) {\n    sensores = [sensores];\n}\n\n// Validar que realmente es un ARRAY con cosas\nif (!Array.isArray(sensores) || sensores.length === 0) {\n    node.error(\"❌ msg.payload está vacío.\");\n    return null;\n}\n\n\n// ========================================================\n// 2. NORMALIZAR CAMPOS DEL CALIBRADOR\n// ========================================================\nsensores = sensores.map(s => ({\n    ...s,\n\n    // Campos Modbus que se van a usar para consultar el calibrador\n    IP_Calibrador: s[\"IP CALIBRADOR\"],\n    UnitId_Calibrador: Number(s[\"UnitID Calibrador\"]),\n    Fc_Calibrador: Number(s[\"Fc Calibrador\"]),\n    IDModbus_Calibrador: Number(s[\"IDModbus Calibrador\"]),\n\n    // Campos de referencia del sensor\n    IDAMB: Number(s.IDAMB),\n    IDSENSOR: Number(s.IDSENSOR)\n}));\n\n\n// ========================================================\n// 3. VALIDAR DATOS DEL CALIBRADOR\n// ========================================================\nconst invalidos = sensores.filter(s =>\n    !s.IP_Calibrador ||\n    Number.isNaN(s.UnitId_Calibrador) ||\n    Number.isNaN(s.Fc_Calibrador) ||\n    Number.isNaN(s.IDModbus_Calibrador)\n);\n\nif (invalidos.length > 0) {\n    node.error(\"❌ Hay sensores con datos de calibrador inválidos.\", invalidos);\n    return null;\n}\n\n\n// ========================================================\n// 4. ORDENAR POR IDModbus Calibrador\n// ========================================================\nsensores.sort((a, b) => a.IDModbus_Calibrador - b.IDModbus_Calibrador);\n\n\n// ========================================================\n// 5. VALIDAR IP / UNIT ID / FC DEL CALIBRADOR\n// ========================================================\nconst ip = sensores[0].IP_Calibrador;\nconst unitID = sensores[0].UnitId_Calibrador;\nconst fc = sensores[0].Fc_Calibrador;\n\nconst mixed = sensores.some(s =>\n    s.IP_Calibrador !== ip ||\n    s.UnitId_Calibrador !== unitID ||\n    s.Fc_Calibrador !== fc\n);\n\nif (mixed) {\n    node.warn(\"⚠️ Subgrupo tiene IP, UnitId o Fc de calibrador mezclados. Se usará el primero.\");\n}\n\n\n// ========================================================\n// 6. CALCULAR START ADDRESS Y QUANTITY\n// ========================================================\nconst addrInicio = sensores[0].IDModbus_Calibrador;\nconst addrFinal = sensores[sensores.length - 1].IDModbus_Calibrador;\n\nconst quantity = (addrFinal - addrInicio) + 1;\n\nif (quantity <= 0 || Number.isNaN(quantity)) {\n    node.error(\"❌ Quantity inválido para consulta Modbus de calibrador.\");\n    return null;\n}\n\n\n// ========================================================\n// 7. PREPARAR PAYLOAD PARA modbus-flex-getter\n// ========================================================\nmsg.payload = {\n    ip: ip,\n    fc: fc,\n    unitid: unitID,\n    address: addrInicio,\n    quantity: quantity\n};\n\n\n// ========================================================\n// 8. PASAR DATOS EXTRA\n// ========================================================\nmsg.ip = ip;\nmsg.sensores = sensores;\n\n\n// ========================================================\n// 9. INFO EXTRA\n// ========================================================\nmsg.info = msg.info || {};\nmsg.info.tipo = \"calibrador\";\nmsg.info.ambiente = sensores[0].Ambiente;\nmsg.info.ip = ip;\nmsg.info.unitid = unitID;\nmsg.info.fc = fc;\nmsg.info.totalSensores = sensores.length;\nmsg.info.addressInicio = addrInicio;\nmsg.info.addressFin = addrFinal;\nmsg.info.quantity = quantity;\n\n\n\n\n// ========================================================\n// 11. RETORNAR\n// ========================================================\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -1442,29 +1358,29 @@
         "y": 400,
         "wires": [
             [
-                "2f96b414d97ce72f"
+                "d6567c22df72bbfb"
             ]
         ]
     },
     {
-        "id": "2f96b414d97ce72f",
+        "id": "d6567c22df72bbfb",
         "type": "link out",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "link out 5",
         "mode": "link",
         "links": [
-            "fdcdb8104e36bb26"
+            "0d047e2a6e682fb7"
         ],
         "x": 955,
         "y": 400,
         "wires": []
     },
     {
-        "id": "b6307637650dc4ab",
+        "id": "54e23a0b05d5bcb8",
         "type": "comment",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "",
         "info": "> Endpoint de Un Solo dato\n \nGET /offset?ambiente=Tunel 1&sensor=SENSOR 1\nGET /value?ambiente=Tunel 1&sensor=SENSOR 1\n\nBody respuesta \n\n[\n  {\n    \"Ambiente\": \"Tunel 1\",\n    \"Sensor\": \"SENSOR 1\",\n    \"value\": 0.5\n  }\n]\n\n> Enpoint de Varios Datos\n\nGET /offsets?ambiente=Tunel 1\nGET /values?ambiente=Tunel 1\n\nBody Respuesta\n\n[\n  {\n    \"Ambiente\": \"Tunel 1\",\n    \"Sensor\": \"SENSOR 1\",\n    \"value\": 0.5\n  },\n  {\n    \"Ambiente\": \"Tunel 1\",\n    \"Sensor\": \"SENSOR 2\",\n    \"value\": -0.2\n  },\n  {\n    \"Ambiente\": \"Tunel 1\",\n    \"Sensor\": \"SENSOR 3\",\n    \"value\": -0.1\n  },\n  {\n    \"Ambiente\": \"Tunel 1\",\n    \"Sensor\": \"SENSOR 4\",\n    \"value\": -0.2\n  }\n]\n\n\n> Enpoint de Escritura\n\nPOST /offset\n\nBody cuerpo\n\n{\n  \"UnitId\": 10,\n  \"IDmodbus\": 781,\n  \"value\": 0\n}\n\nBody respuesta\n\n{\n  \"ok\": true,\n  \"message\": \"Escritura Modbus exitosa\",\n  \"unitid\": 10,\n  \"address\": 781,\n  \"value\": 0\n}\n",
         "x": 1100,
@@ -1472,10 +1388,10 @@
         "wires": []
     },
     {
-        "id": "ff7190ec4bc8ce71",
+        "id": "c3bf4b9596899ccd",
         "type": "comment",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "efec56f499f1941b",
+        "z": "eca3f4c31fabc15a",
+        "g": "894ce206428c4a3b",
         "name": "",
         "info": "GET /structure\n\nBody Respuesta\n\n{\n  \"Tunel 1\": [\n    [\n      {\n        \"Ambiente\": \"Tunel 1\",\n        \"Sensor\": \"SENSOR 1\",\n        \"UnitId\": 1,\n        \"IDModbus\": 256,\n        \"IDAMB\": 1,\n        \"IDSENSOR\": 1\n      },\n      {\n        \"Ambiente\": \"Tunel 1\",\n        \"Sensor\": \"SENSOR 2\",\n        \"UnitId\": 2,\n        \"IDModbus\": 256,\n        \"IDAMB\": 1,\n        \"IDSENSOR\": 2\n      }\n    ]\n  ]\n}\n",
         "x": 1100,
@@ -1483,10 +1399,10 @@
         "wires": []
     },
     {
-        "id": "57c20208a645c385",
+        "id": "6835caec80790227",
         "type": "function",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "Desocupar Linea",
         "func": "const resultado = false;\n\nglobal.set(\"modbusLineaStado\", resultado);\n\nreturn msg;",
         "outputs": 1,
@@ -1499,15 +1415,15 @@
         "y": 540,
         "wires": [
             [
-                "ebde049f44f6b595"
+                "92fb4fb646f2912c"
             ]
         ]
     },
     {
-        "id": "ef90a2620f0d1e8f",
+        "id": "0215fa3247fe2315",
         "type": "function",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "Desocupar Linea",
         "func": "const resultado = false;\n\nglobal.set(\"modbusLineaStado\", resultado);\n\nreturn msg;",
         "outputs": 1,
@@ -1520,30 +1436,463 @@
         "y": 580,
         "wires": [
             [
-                "bfafbfd44fa9b20d"
+                "8a39b061eee837bb"
             ]
         ]
     },
     {
-        "id": "6fb4e8c9e0a83a33",
+        "id": "56bdea018f070d38",
         "type": "http response",
-        "z": "9ea7e0a7ccf0207c",
-        "g": "4cbf6081562987c6",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 570,
+        "x": 630,
         "y": 340,
         "wires": []
     },
     {
-        "id": "19afb3f152eda7c3",
-        "type": "global-config",
-        "env": [],
-        "modules": {
-            "node-red-contrib-modbus": "5.45.2",
-            "node-red-contrib-mssql": "0.0.7",
-            "node-red-contrib-buffer-parser": "3.2.2"
-        }
+        "id": "5369241a2e0595f6",
+        "type": "modbus-flex-getter",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "server": "47ac650c6e355911",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "delayOnStart": false,
+        "enableDeformedMessages": true,
+        "startDelayTime": "",
+        "x": 450,
+        "y": 480,
+        "wires": [
+            [
+                "43dbebd4a7ce3776"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f1791a5505aba0d2",
+        "type": "switch",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
+        "name": "",
+        "property": "payload.ip",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "192.168.0.50",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "192.168.0.51",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "192.168.0.52",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "192.168.0.53",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 250,
+        "y": 540,
+        "wires": [
+            [
+                "5369241a2e0595f6"
+            ],
+            [
+                "a3f1e962de94df58"
+            ],
+            [
+                "74638bc93011622f"
+            ],
+            [
+                "7c5a8fde7f47f5f0"
+            ]
+        ]
+    },
+    {
+        "id": "a3f1e962de94df58",
+        "type": "modbus-flex-getter",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "server": "1d82f2d1f59b81da",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "delayOnStart": false,
+        "enableDeformedMessages": true,
+        "startDelayTime": "",
+        "x": 450,
+        "y": 520,
+        "wires": [
+            [
+                "43dbebd4a7ce3776"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "74638bc93011622f",
+        "type": "modbus-flex-getter",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "server": "b4327a8ac2659599",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "delayOnStart": false,
+        "enableDeformedMessages": true,
+        "startDelayTime": "",
+        "x": 450,
+        "y": 560,
+        "wires": [
+            [
+                "43dbebd4a7ce3776"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7c5a8fde7f47f5f0",
+        "type": "modbus-flex-getter",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "server": "7bb30b8a1a370a7b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "delayOnStart": false,
+        "enableDeformedMessages": true,
+        "startDelayTime": "",
+        "x": 450,
+        "y": 600,
+        "wires": [
+            [
+                "43dbebd4a7ce3776"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "743a9318e44df484",
+        "type": "debug",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "987b8dd6e9edc4a4",
+        "type": "switch",
+        "z": "eca3f4c31fabc15a",
+        "g": "952bcb45e03936fa",
+        "name": "",
+        "property": "payload.ip",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "192.168.0.50",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "192.168.0.51",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "192.168.0.52",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "192.168.0.53",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 630,
+        "y": 780,
+        "wires": [
+            [
+                "74159d61972541d5"
+            ],
+            [
+                "16525f770195d4b7"
+            ],
+            [
+                "9de3063dba31b8ee"
+            ],
+            [
+                "1ccbeb4f7a1502a2"
+            ]
+        ]
+    },
+    {
+        "id": "74159d61972541d5",
+        "type": "modbus-flex-write",
+        "z": "eca3f4c31fabc15a",
+        "g": "952bcb45e03936fa",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "server": "47ac650c6e355911",
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 700,
+        "wires": [
+            [
+                "6ba71fbe56af46f2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "16525f770195d4b7",
+        "type": "modbus-flex-write",
+        "z": "eca3f4c31fabc15a",
+        "g": "952bcb45e03936fa",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "server": "47ac650c6e355911",
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 740,
+        "wires": [
+            [
+                "6ba71fbe56af46f2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9de3063dba31b8ee",
+        "type": "modbus-flex-write",
+        "z": "eca3f4c31fabc15a",
+        "g": "952bcb45e03936fa",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "server": "47ac650c6e355911",
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 780,
+        "wires": [
+            [
+                "6ba71fbe56af46f2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "1ccbeb4f7a1502a2",
+        "type": "modbus-flex-write",
+        "z": "eca3f4c31fabc15a",
+        "g": "952bcb45e03936fa",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "server": "47ac650c6e355911",
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 820,
+        "wires": [
+            [
+                "6ba71fbe56af46f2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5a45cca0ffd44bd0",
+        "type": "link out",
+        "z": "eca3f4c31fabc15a",
+        "g": "5619fb4c3f81e34f",
+        "name": "link out 6",
+        "mode": "link",
+        "links": [
+            "0333d3510966e8a2"
+        ],
+        "x": 595,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "47ac650c6e355911",
+        "type": "modbus-client",
+        "name": "PLC_TT_01",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "192.168.0.50",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "2b3a0580ed7eda92",
+        "type": "MSSQL-CN",
+        "name": "FMAPACILAGUA",
+        "server": "apacilagua.friomamut.pe",
+        "encyption": false,
+        "database": "FMAPACILAGUA"
+    },
+    {
+        "id": "1d82f2d1f59b81da",
+        "type": "modbus-client",
+        "name": "PDC_TT_02",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "192.168.0.51",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "b4327a8ac2659599",
+        "type": "modbus-client",
+        "name": "PDC_TT_03",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "192.168.0.52",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "7bb30b8a1a370a7b",
+        "type": "modbus-client",
+        "name": "PDC_TT_04",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "192.168.0.53",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true
     }
 ]
