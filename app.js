@@ -22,7 +22,9 @@ async function getAmbientes() {
 
   // Normalizar: { ambiente: [ {sensorObj...}, ... ] }
   const ambientes = Object.entries(data).map(([nombre, arr]) => {
-    const sensores = Array.isArray(arr) && Array.isArray(arr[0]) ? arr[0] : [];
+    const sensores = Array.isArray(arr)
+      ? arr.flatMap((grupo) => Array.isArray(grupo) ? grupo : [grupo])
+      : [];
     return { nombre, sensores };
   });
 
@@ -33,7 +35,14 @@ async function getAmbientes() {
     Ambientes[a.nombre] = a.sensores.map((s) => s.Sensor);
     EstructuraModbus[a.nombre] = a.sensores.map(s => ({
       Sensor: s.Sensor,
-      UnitId: s.UnitId
+      UnitId: s.UnitId,
+      IDModbus: s.IDModbus,
+      IP: s.IP,
+      Fc: s.Fc,
+      IP_CALIBRADOR: s["IP CALIBRADOR"],
+      UnitID_Calibrador: s["UnitID Calibrador"],
+      Fc_Calibrador: s["Fc Calibrador"],
+      IDModbus_Calibrador: s["IDModbus Calibrador"],
     }));
   });
 
@@ -176,14 +185,20 @@ function updateOffsets(offsetsArray) {
 
 // ===============================
 // POST: escritura offset
-// body: { UnitId, IDmodbus, value }
+// body: datos de conexión del calibrador + value
 // ===============================
-async function apiPostOffset({ UnitId, IDModbus, value }) {
+async function apiPostOffset({ IP, UnitId, Fc, IDModbus, value }) {
   const url = `${urlbase}/offset`;
   return await fetchJSON(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ UnitId, IDModbus, value }),
+    body: JSON.stringify({
+      "IP": IP,
+      "UnitID": UnitId,
+      "fc": Fc,
+      "id": IDModbus,
+      value,
+    }),
   });
 }
 
@@ -202,7 +217,7 @@ async function apiGetValueAndOffset(ambiente, sensor) {
 }
 
 
-async function apiSetOffsetC(UnitId, IDModbus, offsetC) {
+async function apiSetOffsetC({ IP, UnitId, Fc, IDModbus }, offsetC) {
   const num = Number(offsetC);
 
   if (!Number.isFinite(num)) {
@@ -211,7 +226,7 @@ async function apiSetOffsetC(UnitId, IDModbus, offsetC) {
 
   const truncated = Math.trunc(num * 10) / 10;
   console.log(truncated);
-  return await apiPostOffset({ UnitId, IDModbus, value: truncated });
+  return await apiPostOffset({ IP, UnitId, Fc, IDModbus, value: truncated });
 }
 
 
@@ -422,7 +437,18 @@ async function cambiarCalibracion(ambiente, sensor, newOffset) {
     const entry = EstructuraModbus[ambiente]?.find(s => s.Sensor === sensor);
     if (!entry) throw new Error(`No existe ${sensor} en ${ambiente}`);
 
-    const result = await apiSetOffsetC(entry.UnitId, 781, newOffset);
+    const calibrador = {
+      IP: entry.IP_CALIBRADOR,
+      UnitId: entry.UnitID_Calibrador,
+      Fc: entry.Fc_Calibrador,
+      IDModbus: entry.IDModbus_Calibrador,
+    };
+
+    if (!calibrador.IP || calibrador.UnitId == null || calibrador.Fc == null || calibrador.IDModbus == null) {
+      throw new Error(`Faltan datos de calibrador para ${sensor} en ${ambiente}`);
+    }
+
+    const result = await apiSetOffsetC(calibrador, newOffset);
 
     await refreshNow("after-offset-change");
     
